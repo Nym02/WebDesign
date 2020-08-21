@@ -1,0 +1,247 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+.container {
+  width: 70%;
+  margin: auto;
+}
+.nav {
+  background-color: #0c253a;
+  text-align: center;
+  padding: 2rem;
+  height: 4rem;
+  line-height: 4rem;
+}
+.nav__list {
+  list-style: none;
+}
+.nav__list-item {
+  display: inline-block;
+}
+.nav__list-link {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fff;
+  transition: all 0.5s;
+}
+.nav__list-link:hover {
+  font-size: 2.3rem;
+}
+.nav__list-item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.header__area {
+  background-image: linear-gradient(
+      to right,
+      rgba(21, 20, 20, 0.452),
+      rgba(12, 10, 10, 0.452)
+    ),
+    url("img/back.jpg");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+}
+.info {
+  display: flex;
+  align-items: center;
+}
+.intro_personal {
+  flex-grow: 1;
+  color: #fff;
+  /* margin-left: 7rem; */
+}
+.intro_personal .heading {
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.2rem;
+}
+.intro_personal .heading-primary {
+  font-size: 4rem;
+  margin: 1.2rem 0;
+}
+.intro_personal .heading-primary .heading-primary-mod {
+  text-transform: lowercase;
+  color: #0c253a;
+  background-color: #fff;
+  padding: 0.5rem;
+}
+.intro_personal .heading-secondary {
+  font-size: 2.8rem;
+}
+.intro_personal .heading-tertiary {
+  font-size: 3.5rem;
+}
+.intro_photo {
+}
+.intro-photo-1 {
+  width: 50rem;
+  border-radius: 38%;
+}
+
+/* section education */
+.section-education {
+  padding: 15rem 0;
+  background-color: #0c253a;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.edu_container {
+  width: 50%;
+  margin: auto;
+}
+.edu__header {
+  text-transform: uppercase;
+  font-size: 4rem;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+  margin-bottom: 5rem;
+  padding-bottom: 1rem;
+}
+.edu_info {
+  margin-left: 5rem;
+  border-bottom: 1px solid #fff;
+
+  letter-spacing: 0.15rem;
+  padding: 3rem 0;
+  padding-left: 1rem;
+}
+.edu_info .edu_time {
+  font-size: 1.8rem;
+  background-color: rgb(9, 252, 252);
+  color: #06365a;
+  display: inline-block;
+  padding: 1rem;
+}
+.edu_info .edu_degree {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.edu_info .edu_school {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.edu_info .edu_description {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-experience {
+  padding: 15rem 0;
+  background-color: rgb(248, 237, 237);
+  color: #0c253a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ux_header {
+  text-transform: uppercase;
+  font-size: 4rem;
+  border-bottom: 1px solid #0c253a;
+  display: inline-block;
+  margin-bottom: 5rem;
+  padding-bottom: 1rem;
+  color: #3e64ff;
+}
+.ux_info {
+  margin-left: 5rem;
+  border-bottom: 1px solid #0c253a;
+  letter-spacing: 0.15rem;
+  padding: 3rem 0;
+  padding-left: 1rem;
+}
+.ux_info .ux_time {
+  font-size: 1.8rem;
+  background-color: rgb(9, 252, 252);
+  color: #06365a;
+  display: inline-block;
+  padding: 1rem;
+}
+.ux_info .ux_degree {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: 1rem 0;
+}
+.ux_info .ux_school {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.ux_info .ux_description {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.section-regLog {
+  padding: 15rem 0;
+  background-color: #0c253a;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-title {
+  font-size: 4rem;
+  color: #3e64ff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.login {
+  background-color: azure;
+  padding: 3rem;
+}
+.reg {
+  background-color: azure;
+  padding: 3rem;
+}
+.form input {
+  display: block;
+  border: 1px solid #3e64ff;
+  padding: 1rem 2.1rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0.3rem;
+  padding-right: 10rem;
+}
+
+.btn {
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.btn-login {
+  background-color: #fff;
+  border: 1px solid #06365a;
+  color: #06365a;
+  transition: all 0.5s;
+}
+.btn-login:hover {
+  background-color: #06365a;
+  color: #fff;
+}
+.btn-reg {
+  border: 1px solid transparent;
+  background-color: #06365a;
+  color: #fff;
+  transition: all 0.5s;
+}
+.btn-reg:hover {
+  background-color: #fff;
+  border: 1px solid #06365a;
+  color: #06365a;
+}
