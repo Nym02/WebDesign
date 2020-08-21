@@ -205,11 +205,9 @@ html {
 .login {
   background-color: azure;
   padding: 3rem;
+  border-radius: 1rem;
 }
-.reg {
-  background-color: azure;
-  padding: 3rem;
-}
+
 .form input {
   display: block;
   border: 1px solid #3e64ff;
