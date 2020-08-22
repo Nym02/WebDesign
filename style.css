@@ -7,6 +7,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 html {
   font-size: 10px;
@@ -92,7 +93,26 @@ html {
   width: 50rem;
   border-radius: 38%;
 }
-
+.social {
+  margin-top: 1.2rem;
+  border-top: 1px solid #fff;
+  display: inline-block;
+  padding-top: 1rem;
+}
+.social__link i {
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 50%;
+  color: #f80f70;
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+  transition: all 0.5s;
+}
+.social__link i:hover {
+  background-color: #f80f70;
+  transform: scale(1.1);
+  color: #fff;
+}
 /* section education */
 .section-education {
   padding: 15rem 0;
@@ -242,4 +262,24 @@ html {
   background-color: #fff;
   border: 1px solid #06365a;
   color: #06365a;
+}
+.section-gallery {
+  text-align: center;
+}
+.heading-gallery {
+  margin: 5rem 0;
+  text-transform: uppercase;
+  font-size: 4rem;
+  border-bottom: 1px solid #0c253a;
+  display: inline-block;
+  padding-bottom: 1rem;
+  color: #3e64ff;
+}
+.section-gallery img {
+  width: 36rem;
+  height: 25rem;
+  transition: all 0.5s;
+}
+.section-gallery img:hover {
+  transform: scale(1.1);
 }
