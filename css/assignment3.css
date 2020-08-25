@@ -1,0 +1,121 @@
+:root {
+  --color-primary: #ed6524;
+  --color-secondary: #fff;
+  --color-tertiary: #f6f8fc;
+
+  --color-tertiary-2: #1e2030;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Quicksand", sans-serif;
+}
+p,
+a {
+  font-family: "Roboto", sans-serif;
+}
+
+/* header area starts here  */
+.nav_area {
+  padding: 2rem 0;
+
+  height: 5rem;
+  line-height: 5rem;
+}
+
+.nav_img {
+  margin-left: 2rem;
+  float: left;
+}
+.nav_link,
+.nav_link:link,
+.nav_link:visited {
+  text-decoration: none;
+  color: var(--color-tertiary-2);
+  font-size: 2rem;
+  font-weight: 800;
+  margin-left: 1rem;
+  overflow: hidden;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.row {
+  margin-top: 4rem;
+}
+.col-6 {
+}
+.left {
+  width: 50%;
+  background-color: #c9c3c3;
+  float: left;
+}
+.right {
+  width: 45%;
+  border: 1px solid #000;
+  height: 20rem;
+  float: left;
+}
+
+.left-header {
+  font-size: 4rem;
+  width: 65%;
+  font-family: "Quicksand", sans-serif;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.left-para {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+.left-btn-group {
+  margin-left: 10rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.btn {
+  padding: 1.2rem 2.5rem;
+  border: 1px solid transparent;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  font-weight: 600;
+}
+.btn-link,
+.btn-link:link,
+.btn-link:visited {
+  text-decoration: none;
+}
+.btn-buy {
+}
+.btn-learnMore {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border: 0.2rem solid var(--color-primary);
+  margin-left: 2rem;
+}
+.left-qoute {
+}
+.left-qoute-text {
+}
