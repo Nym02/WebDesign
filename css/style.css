@@ -48,7 +48,7 @@ html {
       rgba(21, 20, 20, 0.452),
       rgba(12, 10, 10, 0.452)
     ),
-    url("img/back.jpg");
+    url("../img/back.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
