@@ -6,6 +6,7 @@
   --color-tertiary-2: #1e2030;
 
   --color-grey-1: #9fa3c4;
+  --color-grey-2: #5d79ae;
 
   --color-green-1: #5cb377;
 }
@@ -35,6 +36,10 @@ a {
 }
 
 /* header area starts here  */
+.header-area {
+  display: flow-root;
+  margin-bottom: 10rem;
+}
 .nav_area {
   padding: 2rem 0;
 
@@ -192,8 +197,8 @@ a {
   height: 15rem;
   background-color: var(--color-green-1);
   border-radius: 50%;
-  top: -4rem;
-  right: 6rem;
+  top: -5rem;
+  right: 0rem;
 }
 .btn-book {
   font-size: 1.7rem;
@@ -208,4 +213,64 @@ a {
   margin-top: 4rem;
   font-size: 2.5rem;
   color: var(--color-secondary);
+}
+
+/* feature section starts here  */
+.section-features {
+  padding: 10rem 0;
+  background-image: linear-gradient(
+    to bottom,
+    var(--color-tertiary),
+    var(--color-secondary)
+  );
+  display: flow-root;
+}
+
+.section-willGet {
+  padding: 5rem 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.heading-primary {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+.section-intro {
+  margin: auto;
+  font-size: 2rem;
+  width: 45%;
+  margin-bottom: 4rem;
+  color: var(--color-grey-1);
+}
+.book-features {
+}
+.row {
+  width: 80%;
+  margin: auto;
+  display: flow-root;
+}
+.row:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.col-4 {
+  width: 29%;
+  float: left;
+  text-align: center;
+}
+.col-4:not(:last-child) {
+  margin-right: 4%;
+}
+.feature-icon {
+  margin-bottom: 1rem;
+}
+.feature-heading {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.feature-description {
+  font-size: 1.7rem;
+  color: var(--color-grey-1);
 }
