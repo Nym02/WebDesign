@@ -4,6 +4,10 @@
   --color-tertiary: #f6f8fc;
 
   --color-tertiary-2: #1e2030;
+
+  --color-grey-1: #9fa3c4;
+
+  --color-green-1: #5cb377;
 }
 
 *,
@@ -63,14 +67,12 @@ a {
 .col-6 {
 }
 .left {
+  position: relative;
   width: 50%;
-  background-color: #c9c3c3;
   float: left;
 }
 .right {
   width: 45%;
-  border: 1px solid #000;
-  height: 20rem;
   float: left;
 }
 
@@ -101,13 +103,18 @@ a {
   background-color: var(--color-primary);
   color: var(--color-secondary);
   font-weight: 600;
+  transition: all 0.5s;
+  border: 0.2rem solid transparent;
 }
 .btn-link,
 .btn-link:link,
 .btn-link:visited {
   text-decoration: none;
 }
-.btn-buy {
+.btn-buy:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border: 0.2rem solid var(--color-primary);
 }
 .btn-learnMore {
   background-color: var(--color-secondary);
@@ -115,7 +122,90 @@ a {
   border: 0.2rem solid var(--color-primary);
   margin-left: 2rem;
 }
+.btn-learnMore:hover {
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  border: 0.2rem solid var(--color-primary);
+  margin-left: 2rem;
+}
 .left-qoute {
+  margin-left: 10rem;
+  font-style: italic;
+  border-left: 0.4rem solid var(--color-primary);
+  padding: 3rem 0;
+  background-color: var(--color-tertiary);
 }
 .left-qoute-text {
+  margin-left: 2rem;
+  font-size: 1.8rem;
+  font-style: italic;
+  color: var(--color-grey-1);
+}
+.left-point {
+  background-color: var(--color-tertiary);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  left: 13rem;
+  bottom: 6.5rem;
+  transform: rotate(45deg);
+}
+.left-qoute-writer {
+  margin-top: 2rem;
+}
+.left-qoute-writer {
+  margin-left: 12rem;
+  margin-top: 3rem;
+}
+.qoute-writer-img {
+  float: left;
+}
+.qoute-writer-img-1 {
+  width: 5rem;
+}
+.qoute-writer-info {
+  float: left;
+}
+.qoute-write-info-names {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  font-size: 1.4rem;
+  color: var(--color-grey-1);
+}
+.qoute-writer-name {
+}
+.qoute-writer-desc {
+}
+
+.book-right {
+  text-align: center;
+}
+.book-img {
+  position: relative;
+}
+.book-img-mod {
+  width: 45rem;
+}
+.book-sticker {
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background-color: var(--color-green-1);
+  border-radius: 50%;
+  top: -4rem;
+  right: 6rem;
+}
+.btn-book {
+  font-size: 1.7rem;
+  color: var(--color-tertiary-2);
+  transition: all 0.3s;
+}
+.btn-book:hover {
+  color: var(--color-primary);
+}
+
+.book-sticker-text {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  color: var(--color-secondary);
 }
