@@ -74,11 +74,11 @@ a {
 }
 .left {
   position: relative;
-  width: 60%;
+  width: 100%;
   float: left;
 }
 .right {
-  width: 40%;
+  width: 39%;
   float: left;
 }
 
@@ -201,7 +201,7 @@ a {
   background-color: var(--color-green-1);
   border-radius: 50%;
   top: -5rem;
-  right: 0rem;
+  right: -2rem;
 }
 .btn-book {
   font-size: 1.7rem;
@@ -522,4 +522,14 @@ a {
 }
 .footer-text a {
   color: var(--color-tertiary-2);
+}
+
+/* carousel css  */
+.owl-carousel {
+  width: 61%;
+  float: left;
+}
+.owl-carousel .owl-item img {
+  display: inline-block;
+  width: 5rem;
 }
