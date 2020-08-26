@@ -376,6 +376,7 @@ a {
 .sub-intro {
   font-size: 1.7rem;
   text-align: center;
+  color: var(--color-grey-1);
 }
 .sub-form {
   text-align: center;
@@ -395,3 +396,64 @@ a {
 }
 
 /* review section  */
+.section-reviews {
+  padding: 10rem 0;
+}
+
+.review-row {
+  margin-top: 8rem;
+}
+.review-row2 {
+  margin-top: 8rem;
+  width: 55%;
+  margin: auto;
+}
+.review-4 {
+  width: 25%;
+  background-color: var(--color-tertiary);
+  padding: 3rem 2rem;
+  position: relative;
+}
+.review-44 {
+  width: 43%;
+}
+.review-icon {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  line-height: 4rem;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  position: absolute;
+  top: -2rem;
+  left: 15rem;
+}
+.review-desc {
+  font-size: 1.7rem;
+  text-align: left;
+  font-style: italic;
+}
+.review-data {
+  margin-top: 2rem;
+}
+.reviewer-img {
+  float: left;
+  width: 5rem;
+}
+.review-info {
+  width: 49%;
+  margin-top: 1rem;
+  float: left;
+  font-size: 1.3rem;
+  text-align: left;
+  margin-left: 1rem;
+}
+.reviewer-name {
+}
+.reviewer-company {
+}
+.review-btn {
+  text-align: center;
+}
