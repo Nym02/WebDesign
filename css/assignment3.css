@@ -6,7 +6,7 @@
   --color-tertiary-2: #1e2030;
 
   --color-grey-1: #9fa3c4;
-  --color-grey-2: #5d79ae;
+  --color-grey-2: #4c5292;
 
   --color-green-1: #5cb377;
 }
@@ -73,11 +73,11 @@ a {
 }
 .left {
   position: relative;
-  width: 50%;
+  width: 60%;
   float: left;
 }
 .right {
-  width: 45%;
+  width: 40%;
   float: left;
 }
 
@@ -110,6 +110,7 @@ a {
   font-weight: 600;
   transition: all 0.5s;
   border: 0.2rem solid transparent;
+  cursor: pointer;
 }
 .btn-link,
 .btn-link:link,
@@ -137,7 +138,7 @@ a {
   margin-left: 10rem;
   font-style: italic;
   border-left: 0.4rem solid var(--color-primary);
-  padding: 3rem 0;
+  padding: 3rem 2.5rem;
   background-color: var(--color-tertiary);
 }
 .left-qoute-text {
@@ -145,6 +146,7 @@ a {
   font-size: 1.8rem;
   font-style: italic;
   color: var(--color-grey-1);
+  text-align: justify;
 }
 .left-point {
   background-color: var(--color-tertiary);
@@ -234,6 +236,7 @@ a {
   margin-bottom: 2rem;
 }
 .heading-primary {
+  text-align: center;
   font-size: 4rem;
   text-transform: capitalize;
   margin-bottom: 2rem;
@@ -274,3 +277,121 @@ a {
   font-size: 1.7rem;
   color: var(--color-grey-1);
 }
+
+/* what's included section starts here  */
+
+.section-included {
+  padding: 13rem 0;
+}
+.col-6 {
+  float: left;
+}
+
+.col-6-left {
+  width: 50%;
+  text-align: center;
+}
+.col-6-right {
+  width: 25%;
+  text-align: center;
+}
+.included-header {
+  margin-bottom: 5rem;
+}
+.included-img {
+}
+.included-img-mod {
+  width: 40rem;
+}
+.included-feature {
+  /* text-align: left; */
+  /* margin-left: 2rem; */
+}
+.included-list {
+  list-style: none;
+}
+.included-list-item {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: var(--color-grey-1);
+}
+.included-list-item i {
+  color: var(--color-green-1);
+  margin-right: 1rem;
+}
+.feature-btn {
+  margin-top: 6rem;
+}
+
+/* section who this book is for starts  */
+.section-whoisthisfor {
+  padding: 10rem 0;
+}
+.whoisthisfor-header {
+}
+
+.whoisthisfor-intro {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.book-collector-data {
+  display: flow-root;
+  font-size: 1.8rem;
+  width: 50%;
+  margin: auto;
+}
+.book-collector-icon {
+  float: left;
+  width: 3%;
+}
+.book-collector-icon i {
+  color: var(--color-green-1);
+  margin-top: 0.4rem;
+}
+.book-collector-info {
+  float: left;
+  width: 90%;
+  margin-left: 2rem;
+}
+.book-collector-name {
+}
+.book-collector-des {
+  margin-top: 1rem;
+  color: var(--color-grey-1);
+  margin-bottom: 2rem;
+}
+
+/* section subscription   */
+.section-subscription {
+  padding: 5rem 0;
+}
+.sub-body {
+  padding: 5rem 3rem;
+  width: 70rem;
+  /* height: 30rem; */
+  background-color: var(--color-tertiary);
+  margin: auto;
+}
+.sub-intro {
+  font-size: 1.7rem;
+  text-align: center;
+}
+.sub-form {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.form-input {
+  width: 40%;
+  padding: 1.7rem 1.5rem;
+  border: 1px solid var(--color-tertiary);
+  border-radius: 0.3rem;
+}
+.btn-submit {
+  border-radius: 0.5rem;
+  padding: 1.4rem 1.5rem;
+  margin-left: 0.7rem;
+}
+
+/* review section  */
