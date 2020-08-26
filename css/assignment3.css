@@ -7,6 +7,7 @@
 
   --color-grey-1: #9fa3c4;
   --color-grey-2: #4c5292;
+  --color-grey-3: #7c7c7c;
 
   --color-green-1: #5cb377;
 }
@@ -456,4 +457,69 @@ a {
 }
 .review-btn {
   text-align: center;
+}
+
+/* author section  */
+
+.section-author {
+  padding: 15rem 0;
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+  text-align: center;
+}
+.author-img {
+  text-align: center;
+}
+.author-img-mod {
+  width: 14rem;
+  margin-bottom: 5rem;
+}
+.author-info {
+  font-size: 1.7rem;
+  width: 48%;
+  text-align: left;
+  margin: auto;
+}
+.author-info-1 {
+  margin-bottom: 2rem;
+}
+
+.author-social {
+  margin-top: 4rem;
+}
+.author-header-mod {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.author-social i {
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  );
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.footer-area {
+  padding: 5rem 0;
+}
+
+.footer-area {
+  text-align: center;
+  color: var(--color-grey-1);
+}
+.footer-text {
+  font-size: 1.6rem;
+  color: var(--color-tertiary-2);
+}
+.footer-text i {
+  color: var(--color-primary);
+}
+.footer-text a {
+  color: var(--color-tertiary-2);
 }
