@@ -1,0 +1,158 @@
+:root {
+  --color-primary: #00a3e4;
+  --color-primary-dark-1: #0093ce;
+  --color-primary-dark-2: #0084b8;
+
+  --hero-bg-1: #04b2f793;
+  --hero-bg-2: #0094cebd;
+
+  --color-white: #fff;
+
+  --color-grey-1: #ecf0f1;
+  --color-grey-2: #767878;
+
+  --color-secondary-1: #f1c40f;
+  --color-secondary-2: #d8af0c;
+
+  --color-btn: #4db2da;
+
+  --font-primary: "Asap", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var(--font-primary);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+.header-area {
+  position: relative;
+  background-image: linear-gradient(
+      to bottom,
+      var(--hero-bg-1),
+      var(--hero-bg-1)
+    ),
+    url("../img/TheLab/bg-hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 105rem;
+}
+.second-header {
+  position: absolute;
+  background-color: var(--hero-bg-1);
+  /* padding: 10rem 0; */
+  height: 20rem;
+  width: 100%;
+  bottom: 0;
+}
+.nav-area {
+  display: flex;
+}
+.nav-logo {
+}
+.nav-logo-mod {
+  margin-top: 4rem;
+}
+.nav-logo-img {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+.nav-logo-text {
+  font-size: 2.8rem;
+  margin-top: 4.3rem;
+  color: var(--color-white);
+  font-weight: bold;
+  font-style: italic;
+}
+.hero-description {
+  margin-top: 20rem;
+}
+.heading-primary {
+  font-size: 5.5rem;
+  color: var(--color-white);
+  letter-spacing: 0.1rem;
+}
+.hero-header {
+  width: 30%;
+}
+.hero-intro {
+  font-size: 2.5rem;
+  color: var(--color-white);
+  font-family: var(--font-primary);
+  letter-spacing: 0.2rem;
+}
+.btn {
+  background-color: var(--color-btn);
+  color: var(--color-white);
+  padding: 2rem 2.5rem;
+  font-size: 1.6rem;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+}
+.btn-link,
+.btn-link:link,
+.btn-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: bold;
+}
+.btn-hero {
+  letter-spacing: 0.1rem;
+}
+
+.second-header__info {
+  display: flex;
+  line-height: 18rem;
+}
+.second-header__info-para {
+  font-size: 1.6rem;
+  color: var(--color-white);
+  font-family: inherit;
+  letter-spacing: 0.1rem;
+}
+.fb-like {
+  position: relative;
+  margin-top: 1.8rem;
+}
+.fb-icon {
+  background-color: var(--color-white);
+  padding: 0.2rem 0.7rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+.fb-icon i {
+  color: #3b579d;
+  margin-right: 0.4rem;
+}
+.like-point {
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: var(--color-white);
+  position: absolute;
+  bottom: 10.1rem;
+  left: 7rem;
+  transform: rotate(45deg);
+}
+.like-count {
+  background-color: var(--color-white);
+  padding: 0.2rem 0.3rem;
+  font-weight: bold;
+  margin-left: 0.6rem;
+}
