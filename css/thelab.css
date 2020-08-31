@@ -7,6 +7,7 @@
   --hero-bg-2: #0094cebd;
 
   --color-white: #fff;
+  --color-black: #070707;
 
   --color-grey-1: #ecf0f1;
   --color-grey-2: #767878;
@@ -119,7 +120,7 @@ h6 {
 
 .second-header__info {
   display: flex;
-  line-height: 18rem;
+  margin-top: 8rem;
 }
 .second-header__info-para {
   font-size: 1.6rem;
@@ -146,7 +147,7 @@ h6 {
   height: 0.7rem;
   background-color: var(--color-white);
   position: absolute;
-  bottom: 10.1rem;
+  bottom: 2.3rem;
   left: 7rem;
   transform: rotate(45deg);
 }
@@ -156,3 +157,32 @@ h6 {
   font-weight: bold;
   margin-left: 0.6rem;
 }
+.hero-img {
+  position: absolute;
+  right: 25rem;
+  bottom: 6rem;
+}
+.hero-img-mod {
+}
+
+/* section lab starts here: 2nd section  */
+.section-lab {
+  padding: 10rem 0;
+  font-family: var(--font-primary);
+  background-color: var(--color-primary-dark-2);
+}
+.lab-header {
+  font-family: inherit;
+}
+.thelab {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.lab-space-intro {
+  font-size: 2rem;
+  margin-top: -3rem;
+  font-family: inherit;
+  color: var(--color-white);
+}
+/* section lab ends here: 2nd section  */
