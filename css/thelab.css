@@ -186,3 +186,87 @@ h6 {
   color: var(--color-white);
 }
 /* section lab ends here: 2nd section  */
+/* section ginger starts here  */
+.section-ginger {
+  padding: 10rem 0;
+}
+.ginger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ginger-img {
+  margin-top: 13rem;
+}
+.ginger-img-mod {
+}
+.ginger-data {
+  flex-basis: 40%;
+  margin-right: 15rem;
+}
+.ginger-header {
+  color: var(--color-black);
+}
+
+.ginger-intro {
+  font-size: 2rem;
+  margin-bottom: 6.5rem;
+}
+.ginger-info {
+  position: relative;
+  background-color: var(--color-grey-1);
+  padding: 2rem 4rem;
+  width: 74%;
+  border-radius: 1rem;
+  color: var(--color-grey-2);
+}
+.ginger-info-mod {
+  font-size: 1.7rem;
+  font-style: italic;
+  width: 91%;
+  line-height: 3rem;
+}
+.ginger-info-img {
+  position: absolute;
+  bottom: -5.5rem;
+  right: -4rem;
+}
+.ginger-title {
+  font-size: 1.7rem;
+  margin-left: 3rem;
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+/* section ginger ends here  */
+
+/* section power starts here  */
+.section-power {
+  padding: 10rem 0;
+}
+.power {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.power-data {
+  flex-basis: 40%;
+  /* margin-right: 28rem; */
+  margin-left: 8rem;
+}
+.header-power {
+  color: var(--color-black);
+}
+.power-intro {
+  margin-bottom: 5rem;
+  font-size: 2rem;
+}
+.power-img {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+}
+.power-img-mod {
+  margin-left: 12rem;
+}
+/* section power ends here  */
