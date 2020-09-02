@@ -270,3 +270,122 @@ h6 {
   margin-left: 12rem;
 }
 /* section power ends here  */
+/* section character starts here  */
+.section-character {
+  padding: 10rem 0;
+  background-color: var(--color-grey-1);
+}
+.character {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.dexter {
+  flex-basis: 30%;
+}
+.heading-secondary {
+  font-size: 4rem;
+}
+.dexter-title {
+  font-size: 2.5rem;
+  margin-top: -2rem;
+  color: var(--color-grey-2);
+  font-style: italic;
+}
+.dexter-description {
+  font-size: 1.8rem;
+  width: 53%;
+  line-height: 3rem;
+  margin: auto;
+  color: var(--color-grey-2);
+}
+.dexter-btn {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: var(--color-primary);
+  margin-top: 2rem;
+  display: inline-block;
+}
+.dexter-btn-mod {
+  margin-left: 0.4rem;
+}
+
+/* section character ends here  */
+
+/* ====================================================
+section tag line starts here 
+==================================================== */
+
+.section-tagline {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: var(--color-secondary-1);
+}
+.tagline {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.tagline-intro {
+  display: inline-block;
+  margin-right: 2rem;
+}
+.tagline i {
+  font-weight: bold;
+}
+/* ====================================================
+section tag line ends here 
+==================================================== */
+/* ====================================================
+footer section starts here 
+==================================================== */
+
+.footer-area {
+  position: relative;
+  padding: 10rem 0;
+  background-color: var(--color-secondary-2);
+  color: var(--color-white);
+  overflow: hidden;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer-address {
+  display: flex;
+  flex-basis: 30%;
+  align-self: start;
+}
+.footer-address-icon {
+  margin-top: 2rem;
+  margin-right: 3rem;
+  font-size: 3rem;
+}
+.footer-address-icon i {
+}
+.footer-address-mod {
+  font-size: 1.7rem;
+}
+.footer-address-web {
+  font-size: 2rem;
+}
+.footer-address-email {
+}
+.bb {
+  font-size: 20rem;
+  position: absolute;
+  bottom: -21rem;
+  font-weight: 900;
+  left: -1.6rem;
+  color: var(--color-secondary-1);
+  font-family: monospace;
+}
+/* ====================================================
+footer section ends here 
+==================================================== */
