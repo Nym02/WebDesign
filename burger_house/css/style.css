@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --color-heading-1: #3d2514;
+    --color-primary-1: #3d2514;
 
 
     --color-red-1: #bf2222;
@@ -10,8 +10,71 @@
 
     --color-white-1: #fff;
 
+    --color-text-shadow: #fee8bc;
+
 
     --font-1: 'Alfa Slab One', cursive;
     --font-2: 'Bebas Neue', cursive;
     --font-3: 'Montserrat', sans-serif;
 }
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+html{
+    font-size: 10px;
+}
+/*==================================================*/
+/*============= HEADER SECTION STARTS HERE-->*/
+/*==================================================*/
+
+.header-area{
+    background-image: url("../img/bg-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/*.navbar{*/
+/*    margin-top: 4rem !important;*/
+/*}*/
+.express-delivery{
+    text-align: right;
+    margin-top: 5rem;
+}
+.express-img{
+    margin-right: 1rem;
+    width: 3rem;
+}
+.express-del {
+    display: inline-block;
+    font-family: var(--font-3);
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: var(--color-primary-1) !important;
+}
+.custom-nav{
+    font-size: 1.6rem;
+    margin-right: -1.6rem;
+    font-family: var(--font-2);
+    letter-spacing: .2rem;
+    margin-top: -2rem;
+    text-transform: uppercase;
+}
+.navbar-nav{
+    margin-top: 3rem !important;
+}
+.navbar-nav li:not(:last-child){
+    margin-right: 4rem !important;
+}
+
+.row-mod-1{
+    margin-top: 10rem;
+}
+.hero-burger{
+    margin-left: 10rem !important;
+}
+/*==================================================*/
+/*============= HEADER SECTION ENDS HERE-->*/
+/*==================================================*/
