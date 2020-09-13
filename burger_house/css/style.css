@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
+:root {
     --color-primary-1: #3d2514;
 
 
@@ -10,6 +10,8 @@
 
     --color-white-1: #fff;
 
+    --color-black-1: #3d3d3d;
+
     --color-text-shadow: #fee8bc;
 
 
@@ -17,42 +19,49 @@
     --font-2: 'Bebas Neue', cursive;
     --font-3: 'Montserrat', sans-serif;
 }
-*,*::after,*::before{
+
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     outline: 0;
 }
-html{
+
+html {
     font-size: 10px;
 }
+
 /*==================================================*/
 /*============= HEADER SECTION STARTS HERE-->*/
 /*==================================================*/
 
-.header-area{
+.header-area {
     background-image: url("../img/bg-2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
-.container-hero{
+
+.container-hero {
     width: 90%;
     margin: auto;
 }
-.container-catalog{
+
+.container-catalog {
     width: 70%;
     margin: auto;
 }
 
-.express-delivery{
+.express-delivery {
     text-align: right;
     margin-top: 5rem;
 }
-.express-img{
+
+.express-img {
     margin-right: 1rem;
     width: 3rem;
 }
+
 .express-del {
     display: inline-block;
     font-family: var(--font-3);
@@ -60,7 +69,8 @@ html{
     font-size: 1.4rem;
     color: var(--color-primary-1) !important;
 }
-.custom-nav{
+
+.custom-nav {
     font-size: 1.8rem;
     margin-right: -1.6rem;
     font-family: var(--font-2);
@@ -68,24 +78,29 @@ html{
     margin-top: -2rem;
     text-transform: uppercase;
 }
-.navbar-nav{
+
+.navbar-nav {
     margin-top: 3rem !important;
 }
-.navbar-nav li:not(:last-child){
+
+.navbar-nav li:not(:last-child) {
     margin-right: 4rem !important;
 }
 
-.row-mod-1{
+.row-mod-1 {
     margin-top: 10rem;
 }
-.hero-burger{
+
+.hero-burger {
     margin-left: 10rem !important;
 }
-.hero-info{
+
+.hero-info {
     margin-top: 8rem;
 
 }
-.hero-info-mod{
+
+.hero-info-mod {
     font-size: 2.2rem;
     font-family: var(--font-2);
     letter-spacing: .1rem;
@@ -93,20 +108,23 @@ html{
     display: inline-block;
     padding: 1rem;
 }
-.burger{
+
+.burger {
     font-size: 12rem;
     font-family: var(--font-1);
     letter-spacing: .1rem;
     color: var(--color-primary-1);
     text-shadow: 0.3rem 0.4rem var(--color-text-shadow);
 }
-.week{
+
+.week {
     font-size: 10rem;
     font-family: var(--font-1);
     color: var(--color-primary-1);
     text-shadow: .3rem .4rem var(--color-text-shadow);
     letter-spacing: .1rem;
 }
+
 /*==================================================*/
 /*============= HEADER SECTION ENDS HERE-->*/
 /*==================================================*/
@@ -115,10 +133,11 @@ html{
 /*==================================================*/
 /*============= CATALOG SECTION STARTS HERE-->*/
 /*==================================================*/
-.section-catalog{
+.section-catalog {
     padding: 10rem 0;
 }
-.catalog-left{
+
+.catalog-left {
     background-image: url("../img/popular_burger.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -128,7 +147,7 @@ html{
     margin-right: 2rem;
 }
 
-.catalog-right-1{
+.catalog-right-1 {
     background-image: url("../img/more_taste.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -136,7 +155,8 @@ html{
     height: 18rem;
     border-radius: 1rem;
 }
-.catalog-right-2{
+
+.catalog-right-2 {
     background-image: url("../img/fresh_chili.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -146,7 +166,7 @@ html{
     border-radius: 1rem;
 }
 
-.catalog-left-info{
+.catalog-left-info {
     padding-top: 3rem;
     margin-left: 3rem;
     color: var(--color-white-1);
@@ -154,7 +174,8 @@ html{
     font-family: var(--font-2);
     letter-spacing: .1rem;
 }
-.catalog-tryit{
+
+.catalog-tryit {
     color: var(--color-white-1);
     text-transform: uppercase;
     font-family: var(--font-2);
@@ -162,13 +183,159 @@ html{
     font-size: 2.6rem;
     margin-bottom: -1rem;
 }
-.catalog-popular{
+
+.catalog-popular {
     font-size: 4.6rem;
 }
-.more-taste{
+
+.more-taste {
     margin-top: -2rem;
 }
+
+.button {
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.tasty-burger, .tasty-burger:link, .tasty-burger:visited {
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-color: var(--color-yellow-1);
+    color: var(--color-primary-1);
+    padding: 1.2rem 1.8rem;
+    font-family: var(--font-2);
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
 /*==================================================*/
 /*============= CATALOG SECTION ENDS HERE-->*/
 /*==================================================*/
+
+
+/*==================================================*/
+/*============= CHOOSE & ENJOY SECTION STARTS HERE-->*/
+/*==================================================*/
+
+.section-chooseEnjoy {
+    padding: 10rem 0;
+}
+
+.chooseEjnoy-info {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.heading-primary {
+    font-size: 6rem;
+    font-family: var(--font-1);
+    text-transform: uppercase;
+    color: var(--color-primary-1);
+}
+
+.chooseEnjoy-intro {
+    font-size: 1.7rem;
+    margin-top: 2rem;
+    font-family: var(--font-3);
+    color: var(--color-primary-1);
+}
+
+.burger-info {
+    text-align: center;
+}
+
+.burger-img {
+    margin-left: 2rem;
+}
+
+.burger-img-mod {
+    /*height: 22.5rem;*/
+}
+
+.burger-title {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: var(--font-2);
+    color: var(--color-primary-1);
+}
+
+.burger-desc {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+    font-family: var(--font-3);
+    color: var(--color-primary-1);
+}
+
+.burger-button, .burger-button:link, .burger-button:visited {
+    background-color: var(--color-red-1);
+    color: var(--color-white-1);
+    font-family: var(--font-1);
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    padding: 1.5rem 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*==================================================*/
+/*============= CHOOSE & ENJOY SECTION ENDS HERE-->*/
+/*==================================================*/
+/*==================================================*/
+/*============= UPCOMING  SECTION STARTS HERE-->*/
+/*==================================================*/
+.section-upcoming-events {
+    padding: 10rem 0;
+}
+
+.uevent {
+
+}
+
+.uevent:hover {
+
+}
+.owl-stage-outer{
+    position: relative;
+    transition: all .3s !important;
+}
+.owl-stage-outer:hover{
+    box-shadow: 1rem 1rem 3rem var(--color-black-1) !important;
+}
+.owl-dots{
+    position: absolute;
+    left: 32px;
+    bottom: 23px;
+}
+.uevents {
+
+}
+
+.uevents-left {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.uevent-discover {
+    color: var(--color-primary-1);
+}
+
+.uevent-upcoming {
+    text-transform: uppercase;
+    font-family: var(--font-1);
+    margin-top: 2rem;
+    font-size: 4rem;
+    color: var(--color-primary-1);
+}
+
+.uevent-desc {
+    font-family: var(--font-3);
+    font-size: 1.9rem;
+    margin-top: 3rem;
+}
+
+/*==================================================*/
+/*============= UPCOMING  SECTION ENDS HERE-->*/
+/*==================================================*/
+
 
