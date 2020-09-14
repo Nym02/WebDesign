@@ -23,7 +23,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burger_house/burgerHouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/burger_house/burgerHouse.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/burger_house/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/burger_house/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/burger_house/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/burger_house/js/custom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1599911270624" duration="9441000" />
       <workItem from="1599983651213" duration="1446000" />
       <workItem from="1600002759738" duration="9650000" />
-      <workItem from="1600070611240" duration="4956000" />
+      <workItem from="1600070611240" duration="10946000" />
     </task>
     <servers />
   </component>

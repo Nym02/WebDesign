@@ -415,4 +415,83 @@ html {
 /*============= RESERVE TABLE SECTION ENDS HERE-->*/
 /*==================================================*/
 
+/*==================================================*/
+/*============= FOOTER SECTION STARTS HERE-->*/
+/*==================================================*/
+.footer-area{
+    /*padding: 10rem 0;*/
+
+}
+.container-footer{
+    width: 80%;
+    margin: auto;
+}
+.footer{
+    background-image: url("../img/about-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 64vh;
+    background-repeat: no-repeat;
+
+}
+.about-logo{
+    margin-top: 8rem;
+    margin-left: 4rem;
+}
+.about-info{
+    font-size: 1.6rem;
+    color: var(--color-white-1);
+    margin-left: 5rem;
+    margin-top: 10rem;
+    font-family: var(--font-3);
+    padding-right: 18rem;
+}
+.about-desc{
+
+}
+.about-address{
+    color: var(--color-white-1);
+    margin-top: 12rem;
+    font-size: 2.5rem;
+    margin-left: 20rem;
+    font-family: var(--font-2);
+    letter-spacing: .1rem;
+}
+
+.about-location i{
+    margin-right: 4rem;
+}
+.about-email i{
+    margin-right: 3.5rem;
+}
+.copyright{
+    margin-left: 5rem;
+    color: var(--color-white-1);
+    font-size: 1.8rem;
+    font-family: var(--font-2);
+    letter-spacing: .1rem;
+    margin-top: 17rem;
+}
+.social{
+    list-style: none;
+    margin-top: 17rem;
+    text-align: right;
+    margin-right: 4rem;
+}
+.social-icon{
+    background-color: var(--color-white-1);
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 50%;
+    margin-left: 3rem;
+    cursor: pointer;
+}
+/*==================================================*/
+/*============= FOOTER SECTION ENDS HERE-->*/
+/*==================================================*/
+
 
