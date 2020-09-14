@@ -12,7 +12,7 @@
     --portfolio-black-1: #3f3f3f;
 
 
-    --font: 'Open Sans', sans-serif;
+    --portfolio-font: 'Open Sans', sans-serif;
 }
 
 *, *:before, *:after {
@@ -24,3 +24,25 @@
 html {
     font-size: 10px;
 }
+a,a:link,a:visited,p,h1,h2,h3,h4,h5,h6,div,span{
+    font-family: var(--portfolio-font);
+}
+/*==========================================*/
+/*========= HEADER AREA STARTS HERE*/
+/*==========================================*/
+.header-area{
+    background-image: url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+
+
+}
+.navbar-brand,.nav-link{
+    color: var(--portfolio-white-1) !important;
+}
+
+/*==========================================*/
+/*========= HEADER AREA ENDS HERE*/
+/*==========================================*/
