@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --portfolio-green: #51a351;
+    --portfolio-yellow: #ffb233;
+    --portfolio-yellow-2: #7a5d2f;
+    --portfolio-grey: #899295;
+    --portfolio-grey-2: #f3f4ff;
+    --portfolio-grey-3: #c6c6c5;
+    --portfolio-grey-4: #818181;
+    --portfolio-white-1: #ffffff;
+    --portfolio-black-1: #3f3f3f;
+
+
+    --font: 'Open Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    font-size: 10px;
+}
