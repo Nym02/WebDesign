@@ -25,7 +25,7 @@ html {
     font-size: 10px;
 }
 a,a:link,a:visited,p,h1,h2,h3,h4,h5,h6,div,span{
-    font-family: var(--portfolio-font);
+    font-family: var(--portfolio-font) !important;
 }
 /*==========================================*/
 /*========= HEADER AREA STARTS HERE*/
@@ -39,10 +39,214 @@ a,a:link,a:visited,p,h1,h2,h3,h4,h5,h6,div,span{
 
 
 }
+.navbar{
+    padding-top: 5rem !important;
+}
 .navbar-brand,.nav-link{
     color: var(--portfolio-white-1) !important;
 }
+.navbar-brand{
+    font-size: 3.7rem !important;
+}
+.nav-link{
+    font-size: 1.7rem !important;
+    transition: all .3s !important;
 
+}
+.nav-link{
+
+}
+/*.nav-link::before{*/
+/*    content: '';*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    width: 3rem;*/
+/*    height: .1rem;*/
+/*    background-color: var(--portfolio-yellow);*/
+/*    top: 4rem;*/
+/*    left: 1.5rem;*/
+/*    */
+/*    transition: all .3s !important;*/
+
+
+/*}*/
+
+.nav-item .hr {
+    width: 3rem;
+    height: .2rem;
+    background-color: var(--portfolio-yellow);
+    margin: auto;
+    margin-top: .5rem;
+    visibility: hidden;
+    /*transition: all .3s !important;*/
+
+}
+.nav-link:hover +.hr{
+    visibility: visible;
+}
+.nav-item:not(:last-child){
+    margin-right: 7rem !important;
+}
+/*intro section starts here */
+.hero-intro{
+    color: var(--portfolio-white-1);
+    text-align: center;
+    margin-top: 20rem;
+
+}
+.hero-intro-hi{
+    margin-bottom: 2rem;
+}
+.hero-intro-name{
+    text-transform: uppercase;
+    font-size: 5rem;
+    letter-spacing: .5rem;
+    font-weight: bold;
+}
+.hero-intro-designation{
+    text-transform: capitalize;
+    font-size: 2.6rem;
+    margin-top: 3rem;
+    font-weight: 100;
+    letter-spacing: .4rem;
+}
+
+.arrow{
+    text-align: center;
+    margin-top: 22rem;
+}
+.arrow i{
+    font-size: 1.7rem;
+    color: var(--portfolio-white-1);
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--portfolio-yellow);
+    line-height: 4rem;
+    border-radius: 50%;
+}
+/*intro section ends here */
 /*==========================================*/
 /*========= HEADER AREA ENDS HERE*/
 /*==========================================*/
+/*==========================================*/
+/*========= SECTION ABOUT ME STARTS HERE*/
+/*==========================================*/
+.section-about-me{
+    padding: 10rem 0;
+}
+.about-me{
+    text-align: center;
+}
+.heading-primary{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 4rem;
+}
+.about-img{
+    margin: 5rem 0;
+}
+.about-name{
+    font-size: 1.6rem;
+    color: var(--portfolio-grey);
+}
+.about-info{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 4rem;
+}
+.about-social-icon{
+    margin-bottom: 4rem;
+}
+.about-social{
+list-style: none;
+}
+.social-item{
+    display: inline;
+    margin-right: 2rem;
+
+}
+.social-link,.social-link:link,.social-link:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--portfolio-white-1);
+    background-color: var(--portfolio-grey-3);
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    line-height: 4rem;
+    border-radius: 50%;
+    transition: all .3s;
+}
+.social-link:hover{
+    background-color: var(--portfolio-yellow);
+}
+.contact-me{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border: .2rem solid var(--portfolio-green);
+    padding: 1.2rem 5.5rem;
+    color: var(--portfolio-green);
+    font-weight: 700;
+    border-radius: .3rem;
+}
+.contact-me:hover{
+    background-color: var(--portfolio-green);
+    color: var(--portfolio-white-1);
+    border: .2rem solid var(--portfolio-green);
+}
+/*==========================================*/
+/*========= SECTION ABOUT ME ENDS HERE*/
+/*==========================================*/
+
+/*==========================================*/
+/*========= SECTION SUGGEST STARTS HERE*/
+/*==========================================*/
+.section-suggest{
+    background-image: url("../img/hero2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 63vh;
+    padding: 13vh 0;
+}
+.suggest{
+    text-align: center;
+}
+.suggest-header{
+    color: var(--portfolio-white-1);
+    letter-spacing: .3rem;
+}
+.suggest-row{
+    margin-top: 13rem;
+}
+.suggest-web{
+    text-align: center;
+}
+.img-web{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    background-color: var(--portfolio-yellow);
+    line-height: 9rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: .4rem solid transparent;
+    cursor: pointer;
+    transition: all .5s;
+}
+.img-web:hover{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    background-color: var(--portfolio-yellow);
+    border: .4rem solid var(--portfolio-yellow-2);
+}
+.text-web{
+    color: var(--portfolio-white-1);
+    font-size: 2rem;
+}
+/*==========================================*/
+/*========= SECTION SUGGEST ENDS HERE*/
+/*==========================================*/
+
