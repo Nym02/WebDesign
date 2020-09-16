@@ -41,7 +41,14 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
 
 
 }
-
+#sticker{
+    top: -4rem !important;
+    padding-bottom: 1rem;
+    /*background-color: var(--portfolio-black-1);*/
+}
+.is-sticky{
+    z-index: 9999;
+}
 .navbar {
     padding-top: 5rem !important;
 }
