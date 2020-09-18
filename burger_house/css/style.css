@@ -495,3 +495,298 @@ html {
 /*==================================================*/
 
 
+
+/*responsive css code*/
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .hero-info-mod {
+        font-size: 2rem;
+    }
+    .burger {
+        font-size: 11rem;
+    }
+    .week {
+        font-size: 9rem;
+    }
+    .uevent-upcoming {
+        font-size: 3rem;
+    }
+    .uevent-desc {
+        font-size: 1.7rem;
+        margin-top: 1rem;
+    }
+    .about-info {
+        font-size: 1.5rem;
+        color: var(--color-white-1);
+        margin-left: 5rem;
+        margin-top: 3rem;
+        font-family: var(--font-3);
+        padding-right: 10rem;
+    }
+    .about-address {
+        color: var(--color-white-1);
+        margin-top: 4rem;
+        font-size: 2rem;
+        margin-left: 1rem;
+        font-family: var(--font-2);
+        letter-spacing: .1rem;
+    }
+    .copyright {
+        margin-left: 5rem;
+        color: var(--color-white-1);
+        font-size: 1.8rem;
+        font-family: var(--font-2);
+        letter-spacing: .1rem;
+        margin-top: 10rem;
+    }
+    .social {
+        list-style: none;
+        margin-top: 8rem;
+        text-align: right;
+        margin-right: 4rem;
+    }
+    .owl-dots {
+        bottom: 1.3rem;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    html{
+        font-size: 9px;
+    }
+    .hero-info-mod {
+        font-size: 1.8rem;
+    }
+    .burger {
+        font-size: 10rem;
+    }
+    .week {
+        font-size: 8rem;
+    }
+    .catalog-left {
+        height: 30rem;
+    }
+    .catalog-right-1 {
+        height: 14rem;
+    }
+    .catalog-right-2 {
+        height: 14rem;
+        margin-top: 2rem;
+    }
+    .catalog-popular {
+        font-size: 3rem;
+    }
+    .catalog-tryit {
+        font-size: 2.3rem;
+        margin-bottom: 0rem;
+    }
+    .more-taste {
+        margin-top: -1rem;
+    }
+    .uevent-upcoming {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .uevent-desc {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+    .owl-dots {
+        bottom: 1rem;
+    }
+    .section-find-table {
+        height: 67vh;
+    }
+    .form {
+        margin-top: 9rem;
+    }
+    .form-left {
+        margin-right: -7rem;
+    }
+    .about-info {
+        padding-right: 1rem;
+        margin-top: 5rem;
+    }
+    .about-address {
+        margin-top: 9rem;
+        font-size: 1.8rem;
+        margin-left: 0rem;
+    }
+    .about-location i {
+        margin-right: 2rem;
+    }
+    .about-email i {
+        margin-right: 1.5rem;
+    }
+    .copyright {
+        font-size: 1.5rem;
+        margin-top: 12rem;
+    }
+    .social {
+        margin-top: 11rem;
+    }
+    .social-icon {
+        margin-left: 2rem;
+    }
+
+
+}
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html{
+        font-size: 8px;
+    }
+    .heading-primary {
+        font-size: 4.5rem;
+    }
+    .hero-info-mod {
+        font-size: 1.8rem;
+    }
+    .burger {
+        font-size: 10rem;
+    }
+    .week {
+        font-size: 8rem;
+    }
+    .catalog-left {
+        margin-right: 0rem;
+        margin-bottom: 2rem;
+    }
+    .catalog-right-1 {
+        height: 14rem;
+    }
+    .catalog-right-2 {
+        height: 14rem;
+        margin-top: 2rem;
+    }
+    .catalog-popular {
+        font-size: 3rem;
+    }
+    .catalog-tryit {
+        font-size: 2.3rem;
+        margin-bottom: 0rem;
+    }
+    .more-taste {
+        margin-top: -1rem;
+    }
+    .section-chooseEnjoy {
+        padding: 5rem 0;
+    }
+    .burger-img {
+        width: 60%;
+        margin-left: 0rem;
+    }
+    .burger-info {
+        margin-bottom: 7rem;
+    }
+    .burger-desc {
+        margin-bottom: 5rem;
+        padding: 0 10rem;
+    }
+    .section-upcoming-events {
+        padding: 5rem 0;
+    }
+    .uevent-upcoming {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    .uevent-desc {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+    .owl-dots {
+        bottom: 1rem;
+    }
+    .section-find-table {
+        height: 100vh;
+    }
+    .form {
+        margin-top: 9rem;
+    }
+    .form-input {
+        display:inline-block;
+    }
+    .form-left {
+        margin-right: -7rem;
+    }
+    .form-right{
+        margin-right: -7rem;
+        margin-left: 8rem;
+    }
+    .footer-area {
+        padding: 5rem 0;
+    }
+    .about-logo {
+        margin-top: 5rem;
+        margin-left: 3rem;
+        width: 70%;
+        display: inline-block;
+    }
+    .about-info {
+        padding-right: 1rem;
+        margin-top: 5rem;
+    }
+    .about-address {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+        margin-left: 5rem;
+    }
+    .about-location i {
+        margin-right: 2rem;
+    }
+    .about-email i {
+        margin-right: 1.5rem;
+    }
+    .copyright {
+        font-size: 1.5rem;
+        margin-top: 18rem;
+        margin-left: 11rem;
+    }
+    .social {
+        margin-top: 1rem;
+        text-align: center;
+        margin-right: 0rem;
+    }
+    .social-icon {
+        margin-left: 2rem;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+}
