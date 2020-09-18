@@ -417,41 +417,6 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     box-shadow: .2rem .1rem 1rem var(--portfolio-green);
 }
 
-/*.item-col-11 {*/
-/*    position: absolute !important;*/
-/*    left: 74px !important;*/
-/*    top: 0px !important;*/
-/*}*/
-
-/*.item-col-12 {*/
-/*    position: absolute !important;*/
-/*    left: 74px !important;*/
-/*    top: 387px !important;*/
-/*}*/
-
-/*.item-col-21 {*/
-/*    position: absolute !important;*/
-/*    left: 388px !important;*/
-/*    top: 0px !important;*/
-/*}*/
-
-/*.item-col-22 {*/
-/*    position: absolute !important;*/
-/*    left: 388px !important;*/
-/*    top: 260px !important;*/
-/*}*/
-
-/*.item-col-31 {*/
-/*    position: absolute !important;*/
-/*    left: 700px !important;*/
-/*    top: 0 !important;*/
-/*}*/
-
-/*.item-col-32 {*/
-/*    position: absolute !important;*/
-/*    left: 700px !important;*/
-/*    top: 330px !important;*/
-/*}*/
 
 /*==========================================*/
 /*========= SECTION PORTFOLIO ENDS HERE*/
@@ -649,5 +614,509 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
 
 /*==========================================*/
 /*========= SECTION FOOTER ENDS HERE*/
+/*==========================================*/
+
+/*==========================================*/
+/*========= RESPONSIVE CODES STARTS HERE*/
+/*==========================================*/
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    html {
+        font-size: 10px;
+    }
+
+    .header-area {
+        height: 80vh;
+    }
+
+    .hero-intro {
+
+        margin-top: 10rem;
+    }
+
+    .hero-intro-name {
+        font-size: 3.5rem;
+    }
+    .arrow {
+        margin-top: 18rem;
+    }
+    .heading-primary {
+        font-size: 3.5rem;
+    }
+
+    .about-info {
+        padding: 0 10rem;
+        margin: 3rem;
+        text-align: justify;
+    }
+
+    .section-suggest {
+        padding: 10vh 0;
+        height: 86vh;
+    }
+    .suggest-web {
+        margin-bottom: 2rem;
+    }
+    .suggest-row {
+        margin-top: 20rem;
+    }
+
+    .img-web {
+        width: 8rem;
+        height: 8rem;
+        line-height: 7rem;
+    }
+
+    .img-web-mod {
+        max-width: 56% !important;
+    }
+
+
+    .category-item {
+        margin-right: 3rem;
+    }
+
+    .category-link, .category-link:link, .category-link:visited {
+        font-size: 1.8rem;
+    }
+
+    .section-testimonials {
+        padding: 7rem 0;
+    }
+
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 15% !important;
+    }
+
+    .testi-desc {
+        padding: 0 2.7rem;
+        line-height: 4rem;
+    }
+    .testi-person {
+        margin-top: -2rem;
+    }
+    .footer-area {
+        padding: 10vh 0;
+        height: 100vh;
+    }
+
+    .footer-row-1 {
+        text-align: center;
+    }
+
+    .contact-email {
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-msg {
+        margin-top: 2rem;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    html {
+        font-size: 10px;
+    }
+
+    .header-area {
+        height: 80vh;
+    }
+
+    .hero-intro {
+
+        margin-top: 10rem;
+    }
+
+    .hero-intro-name {
+        font-size: 3.5rem;
+    }
+    .arrow {
+        margin-top: 18rem;
+    }
+    .heading-primary {
+        font-size: 3.5rem;
+    }
+
+    .about-info {
+        padding: 0 10rem;
+        margin: 3rem;
+        text-align: justify;
+    }
+
+    .section-suggest {
+        padding: 10vh 0;
+        height: 86vh;
+    }
+    .suggest-web {
+        margin-bottom: 2rem;
+    }
+    .suggest-row {
+        margin-top: 20rem;
+    }
+
+    .img-web {
+        width: 8rem;
+        height: 8rem;
+        line-height: 7rem;
+    }
+
+    .img-web-mod {
+        max-width: 56% !important;
+    }
+
+
+    .category-item {
+        margin-right: 3rem;
+    }
+
+    .category-link, .category-link:link, .category-link:visited {
+        font-size: 1.8rem;
+    }
+
+    .section-testimonials {
+        padding: 7rem 0;
+    }
+
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 15% !important;
+    }
+
+    .testi-desc {
+        padding: 0 2.7rem;
+        line-height: 4rem;
+    }
+    .testi-person {
+        margin-top: -2rem;
+    }
+    .footer-area {
+
+    }
+
+    .footer-row-1 {
+        text-align: center;
+    }
+
+    .contact-email {
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-msg {
+        margin-top: 2rem;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    html {
+        font-size: 10px;
+    }
+
+    .header-area {
+        height: 80vh;
+    }
+
+    .hero-intro {
+
+        margin-top: 10rem;
+    }
+
+    .hero-intro-name {
+        font-size: 3.5rem;
+    }
+    .arrow {
+        margin-top: 18rem;
+    }
+    .heading-primary {
+        font-size: 3.5rem;
+    }
+
+    .about-info {
+        padding: 0 10rem;
+        margin: 3rem;
+        text-align: justify;
+    }
+
+    .section-suggest {
+        padding: 10vh 0;
+        height: 86vh;
+    }
+    .suggest-web {
+        margin-bottom: 2rem;
+    }
+    .suggest-row {
+        margin-top: 20rem;
+    }
+
+    .img-web {
+        width: 8rem;
+        height: 8rem;
+        line-height: 7rem;
+    }
+
+    .img-web-mod {
+        max-width: 56% !important;
+    }
+
+
+    .category-item {
+        margin-right: 3rem;
+    }
+
+    .category-link, .category-link:link, .category-link:visited {
+        font-size: 1.8rem;
+    }
+
+    .section-testimonials {
+        padding: 7rem 0;
+    }
+
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 15% !important;
+    }
+
+    .testi-desc {
+        padding: 0 2.7rem;
+        line-height: 4rem;
+    }
+    .testi-person {
+        margin-top: -2rem;
+    }
+    .footer-area {
+
+    }
+
+    .footer-row-1 {
+        text-align: center;
+    }
+
+    .contact-email {
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-msg {
+        margin-top: 2rem;
+    }
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .header-area {
+        height: 80vh;
+    }
+
+    .hero-intro {
+
+        margin-top: 10rem;
+    }
+
+    .hero-intro-name {
+        font-size: 3.5rem;
+    }
+
+    .heading-primary {
+        font-size: 3.5rem;
+    }
+
+    .about-info {
+        padding: 0 1rem;
+        margin: 3rem;
+        text-align: justify;
+    }
+
+    .section-suggest {
+        padding: 8vh 0;
+        height: 86vh;
+    }
+    .suggest-web {
+        margin-bottom: 2rem;
+    }
+    .suggest-row {
+        margin-top: 4rem;
+    }
+
+    .img-web {
+        width: 8rem;
+        height: 8rem;
+        line-height: 7rem;
+    }
+
+    .img-web-mod {
+        max-width: 56% !important;
+    }
+
+
+    .category-item {
+        margin-right: 3rem;
+    }
+
+    .category-link, .category-link:link, .category-link:visited {
+        font-size: 1.8rem;
+    }
+
+    .section-testimonials {
+        padding: 7rem 0;
+    }
+
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 25% !important;
+    }
+
+    .testi-desc {
+        padding: 0 2.7rem;
+        line-height: 4rem;
+    }
+    .testi-person {
+        margin-top: -2rem;
+    }
+    .footer-area {
+        padding: 5.5rem 0;
+        height: 109vh;
+    }
+
+    .footer-row-1 {
+        text-align: center;
+    }
+
+    .contact-email {
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-msg {
+        margin-top: 2rem;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .header-area {
+        height: 67vh;
+    }
+
+    .hero-intro {
+
+        margin-top: 10rem;
+    }
+
+    .hero-intro-name {
+        font-size: 3.5rem;
+    }
+
+    .heading-primary {
+        font-size: 3.5rem;
+    }
+
+    .about-info {
+        padding: 0 1rem;
+        margin: 3rem;
+        text-align: justify;
+    }
+
+    .section-suggest {
+        padding: 5vh 0;
+    }
+
+    .suggest-row {
+        margin-top: 4rem;
+    }
+
+    .img-web {
+        width: 7rem;
+        height: 7rem;
+        line-height: 6rem;
+    }
+
+    .img-web-mod {
+        max-width: 56% !important;
+    }
+
+    .category-item {
+        margin-right: 2rem;
+    }
+
+    .category-link, .category-link:link, .category-link:visited {
+        font-size: 1.2rem;
+    }
+
+    .section-testimonials {
+        padding: 7rem 0;
+    }
+
+    .owl-carousel .owl-item img {
+        display: inline-block;
+        width: 25% !important;
+    }
+
+    .testi-desc {
+        padding: 0 2.7rem;
+        line-height: 4rem;
+    }
+    .testi-person {
+        margin-top: -6rem;
+    }
+    .footer-area {
+        padding: 3.5rem 0;
+    }
+
+    .footer-row-1 {
+        text-align: center;
+    }
+
+    .contact-email {
+        margin-left: 0rem;
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .form-msg {
+        margin-top: 2rem;
+    }
+
+}
+
+/*==========================================*/
+/*========= RESPONSIVE CODES ENDS HERE*/
 /*==========================================*/
 

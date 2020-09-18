@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee00044-a738-4562-bebd-57aab53cb186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/portfolio/js/Isotope/isotope.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/css/portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/css/portfolio.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/js/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/js/portfolio.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/portfolio.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,7 @@
       <workItem from="1600283286095" duration="74000" />
       <workItem from="1600335046612" duration="5613000" />
       <workItem from="1600355700833" duration="9586000" />
-      <workItem from="1600422277957" duration="4325000" />
+      <workItem from="1600422277957" duration="12507000" />
     </task>
     <servers />
   </component>
@@ -115,10 +113,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="779" y="211" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599571451118" />
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1599553795532">
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600442011078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599553795532" />
+    <state x="640" y="256" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600442011078" />
     <state x="856" y="336" key="FileChooserDialogImpl" timestamp="1599672499481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
