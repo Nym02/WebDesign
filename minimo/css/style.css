@@ -198,3 +198,105 @@ h1, h2, h3, h4, h5, h6, a, p {
 /*===================================================*/
 /*footer section ends here*/
 /*===================================================*/
+
+
+
+/*responsive css codes*/
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .heading-primary {
+        font-size: 2.7rem;
+    }
+
+    .form-input {
+        width: 62%;
+    }
+
+    .small-post-btn {
+        margin: 5rem 0;
+    }
+
+    .terms {
+        justify-content: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    html {
+        font-size: 8px;
+    }
+
+    .heading-primary {
+        font-size: 2.7rem;
+    }
+
+    .form-input {
+        width: 62%;
+    }
+
+    .small-post-btn {
+        margin: 5rem 0;
+    }
+
+    .terms {
+        justify-content: center;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+}
