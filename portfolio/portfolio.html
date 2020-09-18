@@ -253,29 +253,30 @@
         </div>
      <div class="gallery">
          <div class="row portfolio-row">
-             <div class="col-md-4 portfolio-col">
-                 <div class="item1 web">
+             <div class="col-md-4 portfolio-col web">
+
+                 <div class="item1 web item-col-11">
                      <img src="img/c11.png" alt="" class="img-fluid">
                  </div>
-                 <div class="item1 brand">
+                 <div class="item1 brand item-col-12">
                      <img src="img/c12.png" alt="" class="img-fluid">
                  </div>
 
              </div>
-             <div class="col-md-4 portfolio-col">
-                 <div class="item1 web">
+             <div class="col-md-4 portfolio-col graphic">
+                 <div class="item1 web item-col-21">
                      <img src="img/c21.png" alt="" class="img-fluid">
                  </div>
-                 <div class="item1 graphic">
+                 <div class="item1 graphic item-col-22">
                      <img src="img/c22.png" alt="" class="img-fluid">
                  </div>
 
              </div>
-             <div class="col-md-4 portfolio-col">
-                 <div class="item1 brand">
+             <div class="col-md-4 portfolio-col brand">
+                 <div class="item1 brand item-col-31">
                      <img src="img/c31.png" alt="" class="img-fluid">
                  </div>
-                 <div class="item1 graphic">
+                 <div class="item1 graphic item-col-32">
                      <img src="img/c32.png" alt="" class="img-fluid">
                  </div>
 
@@ -480,7 +481,8 @@
 <!--Sticky Menu-->
 <script src="js/StickyMenu/jquery.sticky.js"></script>
 
-
+<!--isotope -->
+<script src="js/Isotope/isotope.js"></script>
 <!--Smooth Scroll-->
 <script src="js/SmoothScroll/smooth-scroll.polyfills.min.js"></script>
 
@@ -492,6 +494,23 @@
         time: 2000
     });
     $('.counter').addClass('animated fadeInDownBig');
+
+$('.gallery').isotope({
+    itemSelector: '.portfolio-col',
+    layoutMode: 'fitRows'
+});
+
+$('.category-nav .category-list li').click(function(){
+    $('.category-nav .category-list li').removeClass('ac');
+    $(this).addClass('ac');
+
+    var selector = $(this).attr('data-filter');
+    $('.gallery').isotope({
+        filter: selector
+    });
+    return false;
+})
+
 </script>
 
 </body>

@@ -41,15 +41,18 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
 
 
 }
-#sticker{
+
+#sticker {
     top: -4rem !important;
     padding-bottom: 1rem;
     z-index: 9999 !important;
     /*background-color: var(--portfolio-black-1);*/
 }
-.is-sticky{
+
+.is-sticky {
     z-index: 9999;
 }
+
 .navbar {
     padding-top: 5rem !important;
 }
@@ -414,6 +417,42 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     box-shadow: .2rem .1rem 1rem var(--portfolio-green);
 }
 
+/*.item-col-11 {*/
+/*    position: absolute !important;*/
+/*    left: 74px !important;*/
+/*    top: 0px !important;*/
+/*}*/
+
+/*.item-col-12 {*/
+/*    position: absolute !important;*/
+/*    left: 74px !important;*/
+/*    top: 387px !important;*/
+/*}*/
+
+/*.item-col-21 {*/
+/*    position: absolute !important;*/
+/*    left: 388px !important;*/
+/*    top: 0px !important;*/
+/*}*/
+
+/*.item-col-22 {*/
+/*    position: absolute !important;*/
+/*    left: 388px !important;*/
+/*    top: 260px !important;*/
+/*}*/
+
+/*.item-col-31 {*/
+/*    position: absolute !important;*/
+/*    left: 700px !important;*/
+/*    top: 0 !important;*/
+/*}*/
+
+/*.item-col-32 {*/
+/*    position: absolute !important;*/
+/*    left: 700px !important;*/
+/*    top: 330px !important;*/
+/*}*/
+
 /*==========================================*/
 /*========= SECTION PORTFOLIO ENDS HERE*/
 /*==========================================*/
@@ -472,7 +511,8 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     margin-top: 2rem;
     color: var(--portfolio-grey);
 }
-.owl-carousel .owl-item img{
+
+.owl-carousel .owl-item img {
     display: inline-block;
     width: 10%;
 }
@@ -492,60 +532,75 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     color: var(--portfolio-white-1);
     padding: 10rem 0;
 }
-.footer{
+
+.footer {
     text-align: center;
 }
-.footer-row-1{
+
+.footer-row-1 {
     text-align: left;
 }
-.footer-row-2{
+
+.footer-row-2 {
     margin-top: 4rem;
 }
-.heading-second{
-    text-transform:capitalize;
+
+.heading-second {
+    text-transform: capitalize;
     margin-bottom: 3rem;
     letter-spacing: .2rem;
 }
-.contact-web{
+
+.contact-web {
     font-size: 1.5rem;
 }
-.contact-web-name{
+
+.contact-web-name {
 
 }
-.contact-web-link{
+
+.contact-web-link {
     color: var(--portfolio-white-1);
     text-decoration: underline;
 }
-.contact-email{
+
+.contact-email {
     margin-left: 10rem;
     font-size: 1.5rem;
     margin-bottom: 7rem;
 }
-.contact-email-email{
+
+.contact-email-email {
     text-transform: uppercase;
 }
-.contact-email-name{
+
+.contact-email-name {
     font-size: 2.2rem;
 }
-.form{
+
+.form {
 
 }
-.form-area{
+
+.form-area {
 
 }
-.form-area input::placeholder{
+
+.form-area input::placeholder {
     text-transform: uppercase;
     color: var(--portfolio-white-1);
 }
-.form-area textarea::placeholder{
+
+.form-area textarea::placeholder {
     text-transform: uppercase;
     color: var(--portfolio-white-1);
 }
-.form-area input:focus, .form-area textarea:focus{
-   border: .1rem solid var(--portfolio-yellow);
+
+.form-area input:focus, .form-area textarea:focus {
+    border: .1rem solid var(--portfolio-yellow);
 }
 
-.form-input{
+.form-input {
     width: 36%;
     padding: 1rem 1.5rem;
     font-size: 1.5rem;
@@ -553,13 +608,16 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     border: .1rem solid var(--portfolio-white-1);
     color: var(--portfolio-white-1);
 }
-.input-name{
+
+.input-name {
     margin-right: 1%;
 }
-.input-phone{
+
+.input-phone {
     margin-left: 1%;
 }
-.form-msg{
+
+.form-msg {
     display: block;
     margin: auto;
     margin-top: 4rem;
@@ -570,7 +628,8 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     background-color: transparent;
     color: var(--portfolio-white-1);
 }
-.btn-footer{
+
+.btn-footer {
     margin-top: 4rem;
     padding: 1.5rem 1.5rem;
     font-size: 1.4rem;
@@ -581,11 +640,13 @@ a, a:link, a:visited, p, h1, h2, h3, h4, h5, h6, div, span {
     width: 74%;
     border-radius: .4rem;
 }
-.copyright{
+
+.copyright {
     margin: 3rem auto;
     font-size: 1.4rem;
     text-transform: uppercase;
 }
+
 /*==========================================*/
 /*========= SECTION FOOTER ENDS HERE*/
 /*==========================================*/
