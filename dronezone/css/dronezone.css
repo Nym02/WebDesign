@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --d-primary-1: #ca0035;
+    --d-primary-2: #e06900;
+
+    --d-secondary-1: #264699;
+    --d-secondary-2: #4964a9;
+
+    --d-color-white: #fff;
+    --d-color-black: #131212;
+
+    --d-font: 'Lato', sans-serif;
+}
+
+h1{
+    font-family: 'proxima', 'sans-serif';
+}
+p{
+    font-family: var(--d-font);
+    font-weight: bold;
+}
