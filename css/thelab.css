@@ -1,313 +1,363 @@
 :root {
-  --color-primary: #00a3e4;
-  --color-primary-dark-1: #0093ce;
-  --color-primary-dark-2: #0084b8;
+    --color-primary: #00a3e4;
+    --color-primary-dark-1: #0093ce;
+    --color-primary-dark-2: #0084b8;
 
-  --hero-bg-1: #04b2f793;
-  --hero-bg-2: #0094cebd;
+    --hero-bg-1: #04b2f793;
+    --hero-bg-2: #0094cebd;
 
-  --color-white: #fff;
-  --color-black: #070707;
+    --color-white: #fff;
+    --color-black: #070707;
 
-  --color-grey-1: #ecf0f1;
-  --color-grey-2: #767878;
+    --color-grey-1: #ecf0f1;
+    --color-grey-2: #767878;
 
-  --color-secondary-1: #f1c40f;
-  --color-secondary-2: #d8af0c;
+    --color-secondary-1: #f1c40f;
+    --color-secondary-2: #d8af0c;
 
-  --color-btn: #4db2da;
+    --color-btn: #4db2da;
 
-  --font-primary: "Asap", sans-serif;
+    --font-primary: "Asap", sans-serif;
 }
 
 html {
-  font-size: 62.5%;
-  font-family: var(--font-primary);
+    font-size: 62.5%;
+    font-family: var(--font-primary);
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 .container {
-  width: 80%;
-  margin: auto;
+    width: 80%;
+    margin: auto;
 }
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-primary);
+    font-family: var(--font-primary);
 }
+
 .header-area {
-  position: relative;
-  background-image: linear-gradient(
-      to bottom,
-      var(--hero-bg-1),
-      var(--hero-bg-1)
+    position: relative;
+    background-image: linear-gradient(
+            to bottom,
+            var(--hero-bg-1),
+            var(--hero-bg-1)
     ),
     url("../img/TheLab/bg-hero.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 105rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 105rem;
 }
+
 .second-header {
-  position: absolute;
-  background-color: var(--hero-bg-1);
-  /* padding: 10rem 0; */
-  height: 20rem;
-  width: 100%;
-  bottom: 0;
+    position: absolute;
+    background-color: var(--hero-bg-1);
+    /* padding: 10rem 0; */
+    height: 20rem;
+    width: 100%;
+    bottom: 0;
 }
+
 .nav-area {
-  display: flex;
+    display: flex;
 }
+
 .nav-logo {
 }
+
 .nav-logo-mod {
-  margin-top: 4rem;
+    margin-top: 4rem;
 }
+
 .nav-logo-img {
-  width: 3.5rem;
-  margin-right: 1rem;
+    width: 3.5rem;
+    margin-right: 1rem;
 }
+
 .nav-logo-text {
-  font-size: 2.8rem;
-  margin-top: 4.3rem;
-  color: var(--color-white);
-  font-weight: bold;
-  font-style: italic;
+    font-size: 2.8rem;
+    margin-top: 4.3rem;
+    color: var(--color-white);
+    font-weight: bold;
+    font-style: italic;
 }
+
 .hero-description {
-  margin-top: 20rem;
+    margin-top: 20rem;
 }
+
 .heading-primary {
-  font-size: 5.5rem;
-  color: var(--color-white);
-  letter-spacing: 0.1rem;
+    font-size: 5.5rem;
+    color: var(--color-white);
+    letter-spacing: 0.1rem;
 }
+
 .hero-header {
-  width: 30%;
+    width: 30%;
 }
+
 .hero-intro {
-  font-size: 2.5rem;
-  color: var(--color-white);
-  font-family: var(--font-primary);
-  letter-spacing: 0.2rem;
+    font-size: 2.5rem;
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    letter-spacing: 0.2rem;
 }
+
 .btn {
-  background-color: var(--color-btn);
-  color: var(--color-white);
-  padding: 2rem 2.5rem;
-  font-size: 1.6rem;
-  border: 1px solid transparent;
-  border-radius: 0.5rem;
+    background-color: var(--color-btn);
+    color: var(--color-white);
+    padding: 2rem 2.5rem;
+    font-size: 1.6rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
 }
+
 .btn-link,
 .btn-link:link,
 .btn-link:visited {
-  text-decoration: none;
-  display: inline-block;
-  font-family: inherit;
-  font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    font-family: inherit;
+    font-weight: bold;
 }
+
 .btn-hero {
-  letter-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
 }
 
 .second-header__info {
-  display: flex;
-  margin-top: 8rem;
+    display: flex;
+    margin-top: 8rem;
 }
+
 .second-header__info-para {
-  font-size: 1.6rem;
-  color: var(--color-white);
-  font-family: inherit;
-  letter-spacing: 0.1rem;
+    font-size: 1.6rem;
+    color: var(--color-white);
+    font-family: inherit;
+    letter-spacing: 0.1rem;
 }
+
 .fb-like {
-  position: relative;
-  margin-top: 1.8rem;
+    position: relative;
+    margin-top: 1.8rem;
 }
+
 .fb-icon {
-  background-color: var(--color-white);
-  padding: 0.2rem 0.7rem;
-  font-weight: bold;
-  margin-left: 2rem;
+    background-color: var(--color-white);
+    padding: 0.2rem 0.7rem;
+    font-weight: bold;
+    margin-left: 2rem;
 }
+
 .fb-icon i {
-  color: #3b579d;
-  margin-right: 0.4rem;
+    color: #3b579d;
+    margin-right: 0.4rem;
 }
+
 .like-point {
-  width: 0.7rem;
-  height: 0.7rem;
-  background-color: var(--color-white);
-  position: absolute;
-  bottom: 2.3rem;
-  left: 7rem;
-  transform: rotate(45deg);
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: var(--color-white);
+    position: absolute;
+    bottom: 2.3rem;
+    left: 7rem;
+    transform: rotate(45deg);
 }
+
 .like-count {
-  background-color: var(--color-white);
-  padding: 0.2rem 0.3rem;
-  font-weight: bold;
-  margin-left: 0.6rem;
+    background-color: var(--color-white);
+    padding: 0.2rem 0.3rem;
+    font-weight: bold;
+    margin-left: 0.6rem;
 }
+
 .hero-img {
-  position: absolute;
-  right: 25rem;
-  bottom: 6rem;
+    position: absolute;
+    right: 25rem;
+    bottom: 6rem;
 }
+
 .hero-img-mod {
 }
 
 /* section lab starts here: 2nd section  */
 .section-lab {
-  padding: 10rem 0;
-  font-family: var(--font-primary);
-  background-color: var(--color-primary-dark-2);
+    padding: 10rem 0;
+    font-family: var(--font-primary);
+    background-color: var(--color-primary-dark-2);
 }
+
 .lab-header {
-  font-family: inherit;
+    font-family: inherit;
 }
+
 .thelab {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
+
 .lab-space-intro {
-  font-size: 2rem;
-  margin-top: -3rem;
-  font-family: inherit;
-  color: var(--color-white);
+    font-size: 2rem;
+    margin-top: -3rem;
+    font-family: inherit;
+    color: var(--color-white);
 }
+
 /* section lab ends here: 2nd section  */
 /* section ginger starts here  */
 .section-ginger {
-  padding: 10rem 0;
+    padding: 10rem 0;
 }
+
 .ginger {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .ginger-img {
-  margin-top: 13rem;
+    margin-top: 13rem;
 }
+
 .ginger-img-mod {
 }
+
 .ginger-data {
-  flex-basis: 40%;
-  margin-right: 15rem;
+    flex-basis: 40%;
+    margin-right: 15rem;
 }
+
 .ginger-header {
-  color: var(--color-black);
+    color: var(--color-black);
 }
 
 .ginger-intro {
-  font-size: 2rem;
-  margin-bottom: 6.5rem;
+    font-size: 2rem;
+    margin-bottom: 6.5rem;
 }
+
 .ginger-info {
-  position: relative;
-  background-color: var(--color-grey-1);
-  padding: 2rem 4rem;
-  width: 74%;
-  border-radius: 1rem;
-  color: var(--color-grey-2);
+    position: relative;
+    background-color: var(--color-grey-1);
+    padding: 2rem 4rem;
+    width: 74%;
+    border-radius: 1rem;
+    color: var(--color-grey-2);
 }
+
 .ginger-info-mod {
-  font-size: 1.7rem;
-  font-style: italic;
-  width: 91%;
-  line-height: 3rem;
+    font-size: 1.7rem;
+    font-style: italic;
+    width: 91%;
+    line-height: 3rem;
 }
+
 .ginger-info-img {
-  position: absolute;
-  bottom: -5.5rem;
-  right: -4rem;
+    position: absolute;
+    bottom: -5.5rem;
+    right: -4rem;
 }
+
 .ginger-title {
-  font-size: 1.7rem;
-  margin-left: 3rem;
-  color: var(--color-primary);
-  font-weight: 400;
+    font-size: 1.7rem;
+    margin-left: 3rem;
+    color: var(--color-primary);
+    font-weight: 400;
 }
 
 /* section ginger ends here  */
 
 /* section power starts here  */
 .section-power {
-  padding: 10rem 0;
+    padding: 10rem 0;
 }
+
 .power {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .power-data {
-  flex-basis: 40%;
-  /* margin-right: 28rem; */
-  margin-left: 8rem;
+    flex-basis: 40%;
+    /* margin-right: 28rem; */
+    margin-left: 8rem;
 }
+
 .header-power {
-  color: var(--color-black);
+    color: var(--color-black);
 }
+
 .power-intro {
-  margin-bottom: 5rem;
-  font-size: 2rem;
+    margin-bottom: 5rem;
+    font-size: 2rem;
 }
+
 .power-img {
-  flex-basis: 60%;
-  display: flex;
-  justify-content: center;
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
 }
+
 .power-img-mod {
-  margin-left: 12rem;
+    margin-left: 12rem;
 }
+
 /* section power ends here  */
 /* section character starts here  */
 .section-character {
-  padding: 10rem 0;
-  background-color: var(--color-grey-1);
+    padding: 10rem 0;
+    background-color: var(--color-grey-1);
 }
+
 .character {
-  text-align: center;
-  display: flex;
-  justify-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
+
 .dexter {
-  flex-basis: 30%;
+    flex-basis: 30%;
 }
+
 .heading-secondary {
-  font-size: 4rem;
+    font-size: 4rem;
 }
+
 .dexter-title {
-  font-size: 2.5rem;
-  margin-top: -2rem;
-  color: var(--color-grey-2);
-  font-style: italic;
+    font-size: 2.5rem;
+    margin-top: -2rem;
+    color: var(--color-grey-2);
+    font-style: italic;
 }
+
 .dexter-description {
-  font-size: 1.8rem;
-  width: 53%;
-  line-height: 3rem;
-  margin: auto;
-  color: var(--color-grey-2);
+    font-size: 1.8rem;
+    width: 53%;
+    line-height: 3rem;
+    margin: auto;
+    color: var(--color-grey-2);
 }
+
 .dexter-btn {
-  text-decoration: none;
-  font-size: 1.7rem;
-  color: var(--color-primary);
-  margin-top: 2rem;
-  display: inline-block;
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: var(--color-primary);
+    margin-top: 2rem;
+    display: inline-block;
 }
+
 .dexter-btn-mod {
-  margin-left: 0.4rem;
+    margin-left: 0.4rem;
 }
 
 /* section character ends here  */
@@ -317,27 +367,31 @@ section tag line starts here
 ==================================================== */
 
 .section-tagline {
-  padding: 4rem 0;
-  text-align: center;
-  background-color: var(--color-secondary-1);
+    padding: 4rem 0;
+    text-align: center;
+    background-color: var(--color-secondary-1);
 }
+
 .tagline {
-  font-size: 3rem;
-  font-weight: bold;
-  letter-spacing: 0.1rem;
-  color: var(--color-white);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
 }
+
 .tagline-intro {
-  display: inline-block;
-  margin-right: 2rem;
+    display: inline-block;
+    margin-right: 2rem;
 }
+
 .tagline i {
-  font-weight: bold;
+    font-weight: bold;
 }
+
 /* ====================================================
 section tag line ends here 
 ==================================================== */
@@ -346,46 +400,579 @@ footer section starts here
 ==================================================== */
 
 .footer-area {
-  position: relative;
-  padding: 10rem 0;
-  background-color: var(--color-secondary-2);
-  color: var(--color-white);
-  overflow: hidden;
+    position: relative;
+    padding: 10rem 0;
+    background-color: var(--color-secondary-2);
+    color: var(--color-white);
+    overflow: hidden;
 }
+
 .footer {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
+
 .footer-address {
-  display: flex;
-  flex-basis: 30%;
-  align-self: start;
+    display: flex;
+    flex-basis: 30%;
+    align-self: start;
 }
+
 .footer-address-icon {
-  margin-top: 2rem;
-  margin-right: 3rem;
-  font-size: 3rem;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    font-size: 3rem;
 }
+
 .footer-address-icon i {
 }
+
 .footer-address-mod {
-  font-size: 1.7rem;
+    font-size: 1.7rem;
 }
+
 .footer-address-web {
-  font-size: 2rem;
+    font-size: 2rem;
 }
+
 .footer-address-email {
 }
+
 .bb {
-  font-size: 20rem;
-  position: absolute;
-  bottom: -21rem;
-  font-weight: 900;
-  left: -1.6rem;
-  color: var(--color-secondary-1);
-  font-family: monospace;
+    font-size: 20rem;
+    position: absolute;
+    bottom: -21rem;
+    font-weight: 900;
+    left: -1.6rem;
+    color: var(--color-secondary-1);
+    font-family: monospace;
 }
+
 /* ====================================================
 footer section ends here 
 ==================================================== */
+
+/*responsive css code*/
+
+
+@media (min-width: 1600px) {
+
+
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1700px) {
+    html {
+        font-size: 9px;
+    }
+
+    .hero-img {
+        position: absolute;
+        right: 11rem;
+        bottom: 14rem;
+    }
+
+    .hero-img-mod {
+        width: 82%;
+    }
+
+    .hero-header {
+        width: 47%;
+    }
+
+    .heading-primary {
+        font-size: 5rem;
+    }
+
+    .hero-intro {
+        font-size: 2.2rem;
+    }
+
+    .ginger-img {
+        margin-right: 11rem;
+    }
+
+    .ginger-data {
+        margin-right: 7rem;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    html {
+        font-size: 8px;
+    }
+
+    .heading-primary {
+        font-size: 4rem;
+    }
+
+    .hero-img {
+        right: 2rem;
+        bottom: 13rem;
+    }
+
+    .hero-img-mod {
+        width: 68%;
+    }
+
+    .hero-header {
+        width: 47%;
+    }
+
+    .ginger-img-mod {
+        width: 77%;
+    }
+
+    .power-data {
+        margin-left: 5rem;
+    }
+
+    .power-img-mod {
+        margin-left: 16rem;
+        width: 77%;
+    }
+
+    .dexter-img {
+        width: 72%;
+    }
+
+    .dexter-img-1 {
+        width: 55%;
+    }
+
+    .dexter-img-3 {
+        width: 51%;
+    }
+
+    .hero-intro {
+        font-size: 2.2rem;
+    }
+
+    .ginger-img {
+        margin-right: 11rem;
+    }
+
+    .ginger-data {
+        margin-right: 7rem;
+    }
+
+    .bb {
+        bottom: -26rem;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    html {
+        font-size: 7px;
+    }
+
+    .header-area {
+        height: 88rem;
+    }
+
+    .heading-primary {
+        font-size: 5.5rem;
+    }
+
+    .hero-intro {
+        font-size: 3.2rem;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-img-mod {
+        width: 54%;
+    }
+
+    .hero-header {
+        width: 100%;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    .thelab {
+        flex-direction: column;
+    }
+
+    .lab-space {
+        margin-bottom: 6rem;
+    }
+
+    .ginger-intro {
+        margin-bottom: 2.5rem;
+    }
+
+    .ginger-info {
+        width: 100%;
+    }
+
+    .ginger-img {
+        margin-right: 11rem;
+        margin-top: 18rem;
+    }
+
+    .ginger-img-mod {
+        width: 91%;
+    }
+
+    .ginger-data {
+        flex-basis: 82%;
+        margin-right: 2rem;
+    }
+
+    .power-data {
+        margin-left: 0rem;
+        flex-basis: 82%;
+    }
+
+    .power-img-mod {
+        margin-left: 16rem;
+        width: 77%;
+    }
+
+    .dexter {
+        margin-bottom: 8rem;
+    }
+
+    .character {
+        flex-direction: column;
+    }
+
+    .dexter-img {
+        width: 40%;
+    }
+
+    .dexter-img-1 {
+        width: 32%;
+    }
+
+    .dexter-img-3 {
+        width: 31%;
+    }
+
+    .dexter-description {
+        width: 40%;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 19rem;
+    }
+
+    .bb {
+        bottom: -26rem;
+    }
+}
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html {
+        font-size: 7px;
+    }
+
+    .header-area {
+        height: 88rem;
+    }
+
+    .heading-primary {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .hero-intro {
+        font-size: 2rem;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-img-mod {
+        width: 54%;
+    }
+
+    .hero-header {
+        width: 100%;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    .fb-like {
+        display: none;
+    }
+
+    .thelab {
+        flex-direction: column;
+    }
+
+    .lab-space {
+        margin-bottom: 6rem;
+    }
+
+    .section-ginger {
+        padding: 5rem 0;
+    }
+
+    .ginger {
+        flex-direction: column;
+    }
+
+    .ginger-intro {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .ginger-info {
+        margin: auto;
+    }
+
+    .ginger-img {
+        margin-right: 1rem;
+        text-align: center;
+    }
+
+    .ginger-img-mod {
+        width: 60%;
+    }
+
+    .ginger-data {
+        flex-basis: 82%;
+        margin-right: 2rem;
+    }
+
+    .ginger-title {
+        margin-left: 0rem;
+        text-align: center;
+    }
+
+    .power {
+        flex-direction: column-reverse;
+    }
+
+    .power-data {
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .power-img-mod {
+        margin-left: 0rem;
+        width: 60%;
+    }
+
+    .power-intro {
+
+    }
+
+    .dexter {
+        margin-bottom: 8rem;
+    }
+
+    .character {
+        flex-direction: column;
+    }
+
+    .dexter-img {
+        width: 40%;
+    }
+
+    .dexter-img-1 {
+        width: 32%;
+    }
+
+    .dexter-img-3 {
+        width: 31%;
+    }
+
+    .dexter-description {
+        width: 65%;
+    }
+
+    .tagline {
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 12rem;
+    }
+
+    .bb {
+        bottom: -26rem;
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    html {
+        font-size: 7px;
+    }
+
+    .header-area {
+        height: 78rem;
+    }
+
+    .heading-primary {
+
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .hero-intro {
+        font-size: 1.5rem;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-img-mod {
+        width: 54%;
+    }
+
+    .hero-header {
+        width: 100%;
+    }
+
+    .hero-description {
+        text-align: center;
+    }
+
+    .fb-like {
+        display: none;
+    }
+
+    .thelab {
+        flex-direction: column;
+    }
+
+    .lab-space {
+        margin-bottom: 6rem;
+    }
+
+    .lab-space-intro {
+        margin-top: 0rem;
+    }
+
+    .section-ginger {
+        padding: 5rem 0;
+    }
+
+    .ginger {
+        flex-direction: column;
+    }
+
+    .ginger-intro {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .ginger-info {
+        margin: auto;
+    }
+
+    .ginger-img {
+        margin-right: 1rem;
+        text-align: center;
+    }
+
+    .ginger-img-mod {
+        width: 60%;
+    }
+
+    .ginger-data {
+        flex-basis: 82%;
+        margin-right: 2rem;
+    }
+
+    .power {
+        flex-direction: column-reverse;
+    }
+
+    .power-data {
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .power-img-mod {
+        margin-left: 0rem;
+        width: 60%;
+    }
+
+    .power-intro {
+
+    }
+
+    .dexter {
+        margin-bottom: 8rem;
+    }
+
+    .character {
+        flex-direction: column;
+    }
+
+    .dexter-img {
+        width: 40%;
+    }
+
+    .dexter-img-1 {
+        width: 32%;
+    }
+
+    .dexter-img-3 {
+        width: 31%;
+    }
+
+    .dexter-description {
+        width: 65%;
+    }
+
+    .tagline {
+        font-size: 2rem;
+        flex-direction: column;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 7rem;
+    }
+
+    .bb {
+        bottom: -26rem;
+    }
+
+
+}
