@@ -20,14 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee00044-a738-4562-bebd-57aab53cb186" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Alt Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Alt Light.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Alt Thin.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Black.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Bold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Extrabold.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/Proxima Nova Thin.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dronezone/fonts/ProximaNova-Regular.otf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dronezone/css/dronezone.css" beforeDir="false" afterPath="$PROJECT_DIR$/dronezone/css/dronezone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dronezone/dronezone.html" beforeDir="false" afterPath="$PROJECT_DIR$/dronezone/dronezone.html" afterDir="false" />
@@ -94,7 +86,8 @@
       <workItem from="1600448392100" duration="7177000" />
       <workItem from="1600503034899" duration="3770000" />
       <workItem from="1600508019696" duration="201000" />
-      <workItem from="1600518650412" duration="16107000" />
+      <workItem from="1600518650412" duration="16265000" />
+      <workItem from="1600595385658" duration="4946000" />
     </task>
     <servers />
   </component>
