@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-:root{
+:root {
     --d-primary-1: #ca0035;
     --d-primary-2: #e06900;
 
@@ -10,54 +10,82 @@
     --d-color-white: #fff;
     --d-color-black: #131212;
 
+
+    --d-color-grey-1: #f6f6f6;
+
     --d-font: 'Lato', sans-serif;
 }
-html{
+
+html {
     font-size: 10px;
 }
-h1,h2,h3,h4,h5,h6,span,a,p,div{
+
+h1, h2, h3, h4, h5, h6, span, a, p, div {
     font-family: var(--d-font);
 }
+
 /*============================================*/
 /*==========HEADER AREA STARTS HERE*/
 /*============================================*/
-.header-area{
+.header-area {
     background-image: url("../img/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
 }
-.res-menu{
+
+.res-menu {
     padding-top: 4rem;
 }
-.nav-link{
+
+.nav-link {
     color: var(--d-color-white) !important;
     margin-right: 1.5rem;
     font-size: 1.7rem;
     font-weight: 300;
 }
-.nav-link-circle{
+
+.nav-link-circle {
     border: .001rem solid var(--d-color-white);
     border-radius: 2.3rem;
     padding: .5rem 2rem !important;
 }
-.hero{
+
+.hero {
     text-align: center;
     margin-top: 20rem;
     color: var(--d-color-white);
 }
-.heading-primary{
+.hero-header{
+    animation: hero 2s ease-in-out;
+}
+.heading-primary {
     font-size: 5rem;
     margin-bottom: 2rem;
     font-weight: bold;
 }
-.hero-description{
+
+.heading-primary-mod {
+    background-image: linear-gradient(180deg, var(--d-primary-1), var(--d-primary-2));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-description {
     font-size: 1.7rem;
     padding: 0 30rem;
     font-weight: 300;
+    animation: hero-des 2s ease-in-out;
 }
-.btn-mod,.btn-mod:link,.btn-mod:visited{
+.hero-btn-1{
+    animation: hero-btn-1 1s ease-in-out;
+}
+.hero-btn-2{
+    animation: hero-btn-2 1s ease-in-out;
+}
+
+.btn-mod, .btn-mod:link, .btn-mod:visited {
     text-decoration: none !important;
     margin-right: 2rem;
     font-size: 1.6rem;
@@ -67,29 +95,114 @@ h1,h2,h3,h4,h5,h6,span,a,p,div{
     border-radius: 4rem;
 }
 
-.btn-white{
+.btn-white {
     background-color: var(--d-color-white);
     color: var(--d-primary-1) !important;
 }
-.btn-transparent{
+
+.btn-transparent {
     border: .1rem solid var(--d-color-white) !important;
     color: var(--d-color-white);
 }
-.btn-transparent:hover{
+
+.btn-transparent:hover {
     color: var(--d-color-white);
 }
-.btn-transparent i{
+
+.btn-transparent i {
     margin-right: 1rem;
 }
+
+.btn-blue {
+    background-image: linear-gradient(45deg, var(--d-secondary-1), var(--d-secondary-2));
+    color: var(--d-color-grey-1);
+}
+
+.btn-blue:hover {
+    color: var(--d-color-white);
+}
+
+.scroll-down {
+    text-align: center;
+    margin-top: 30rem;
+}
+
+.img-scroll {
+    animation: scroll 2s infinite;
+
+}
+
+.scroll-text {
+    font-size: 1.6rem;
+    color: var(--d-color-white);
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
 /*============================================*/
 /*==========HEADER AREA ENDS HERE*/
 /*============================================*/
 
 
-
 /*============================================*/
 /*==========SECTION DRONE FEATURE STARTS HERE*/
 /*============================================*/
+.section-drone-feature {
+    padding: 10rem 0;
+    background-color: var(--d-color-grey-1);
+}
+
+.fromAir-row {
+    margin-top: 7rem;
+}
+
+.fromAir {
+    text-align: center;
+
+}
+
+.img-fromAir {
+
+}
+
+.img-bestDrone {
+    width: 31%;
+    margin-top: -2rem;
+}
+
+.img-speed {
+    width: 33%;
+    margin-top: -3rem;
+}
+
+.img-longRange {
+    width: 30%;
+    margin-top: -5rem;
+}
+
+.feature-heading {
+    background-image: linear-gradient(to right, var(--d-primary-1), var(--d-primary-2));
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 1rem 0;
+    margin-top: 3rem;
+
+}
+
+.feature-description {
+    font-size: 1.6rem;
+    padding: 0 3rem;
+    color: var(--d-color-black);
+    font-weight: 300;
+}
+
+.blue-btn-col {
+    text-align: center;
+    margin-top: 5rem;
+}
+
 /*============================================*/
 /*==========SECTION DRONE FEATURE ENDS HERE*/
 /*============================================*/
@@ -97,10 +210,23 @@ h1,h2,h3,h4,h5,h6,span,a,p,div{
 /*====================================================*/
 /*==========SECTION DRONE SPECIFICATION STARTS HERE*/
 /*====================================================*/
+.section-drone-specification {
+    padding: 10rem 0;
+}
+
+.drone-specification-info {
+
+}
+
+.specification-description {
+    font-size: 1.8rem;
+    color: var(--d-color-black);
+    font-weight: 300;
+}
+
 /*====================================================*/
 /*==========SECTION DRONE SPECIFICATION ENDS HERE*/
 /*====================================================*/
-
 
 
 /*=========================================================*/
@@ -111,16 +237,12 @@ h1,h2,h3,h4,h5,h6,span,a,p,div{
 /*=========================================================*/
 
 
-
-
 /*=========================================================*/
 /*==========SECTION DRONE DESCRIPTION CITY STARTS HERE*/
 /*=========================================================*/
 /*=========================================================*/
 /*==========SECTION DRONE DESCRIPTION CITY ENDS HERE*/
 /*=========================================================*/
-
-
 
 
 /*====================================================*/
@@ -137,3 +259,78 @@ h1,h2,h3,h4,h5,h6,span,a,p,div{
 /*====================================================*/
 /*==========SECTION DRONE MAP ENDS HERE*/
 /*====================================================*/
+
+
+/*==========================================================*/
+/*========= Animation*/
+/*==========================================================*/
+
+
+@keyframes scroll {
+    0% {
+        transform: translateY(.3rem);
+    }
+    50% {
+        transform: translateY(-.3rem);
+    }
+    100% {
+        transform: translateY(.3rem);
+    }
+}
+
+@keyframes hero {
+
+    0% {
+        transform: translateX(-100rem);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(10rem);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0rem);
+
+    }
+
+}
+
+@keyframes hero-des {
+    0% {
+        transform: translateX(100rem);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(-10rem);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0rem);
+
+    }
+}
+@keyframes hero-btn-1 {
+
+    0% {
+        transform: translateX(-100rem);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+}
+
+@keyframes hero-btn-2 {
+
+    0% {
+        transform: translateX(100rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+}
