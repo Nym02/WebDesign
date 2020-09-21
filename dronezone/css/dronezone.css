@@ -303,6 +303,10 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
 /*=========================================================*/
 /*==========SECTION DRONE DESCRIPTION CITY STARTS HERE*/
 /*=========================================================*/
+.description-2{
+    display: flex;
+    align-items: center;
+}
 /*=========================================================*/
 /*==========SECTION DRONE DESCRIPTION CITY ENDS HERE*/
 /*=========================================================*/
@@ -445,4 +449,278 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
         transform: translateX(0rem);
         opacity: 1;
     }
+}
+
+/*responsive media query code*/
+
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1601px
+*/
+
+@media (min-width: 1601px) {
+
+    /* CSS Code */
+
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to 1600px
+*/
+
+@media (min-width: 1281px) and (max-width: 1880px) {
+
+    /* CSS Code */
+    .scroll-down {
+        text-align: center;
+        margin-top: 18rem;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS Code */
+    .hero-description {
+        padding: 0 23rem;
+    }
+    .scroll-down {
+        text-align: center;
+        margin-top: 18rem;
+    }
+    .img-drone {
+        top: 30rem;
+        width: 36%;
+    }
+    .description {
+        flex-direction: column;
+    }
+    .des-info {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    .description-2 {
+        flex-direction: column-reverse;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS Code */
+    html{
+        font-size: 9px;
+    }
+    .header-area {
+        height: 88vh;
+    }
+    .nav-link-circle {
+        display: inline-block;
+        margin-top: 2rem;
+    }
+    .hero-description {
+        padding: 0 10rem;
+    }
+    .scroll-down {
+        text-align: center;
+        margin-top: 18rem;
+    }
+    .img-bestDrone {
+        margin-top: 1.5rem;
+    }
+    .img-drone {
+        top: 30rem;
+        width: 36%;
+    }
+    .img-speed {
+        margin-top: 1rem;
+    }
+    .img-longRange {
+        margin-top: 0rem;
+    }
+    .feature-description {
+        padding: 0 1rem;
+    }
+    .feature-num {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .description {
+        flex-direction: column;
+    }
+    .des-info {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    .description-2 {
+        flex-direction: column-reverse;
+    }
+    .form-input {
+        width: 45%;
+    }
+    .section-map {
+        height: 30vh;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS Code */
+    html{
+        font-size: 8px;
+    }
+    .header-area {
+        height: 88vh;
+    }
+    .nav-link-circle {
+        display: inline-block;
+        margin-top: 2rem;
+    }
+    .hero-description {
+        padding: 0 10rem;
+    }
+    .scroll-down {
+        text-align: center;
+        margin-top: 18rem;
+    }
+    .fromAir {
+        margin-top: 4rem;
+    }
+    .img-bestDrone {
+        margin-top: 1.5rem;
+        width: 19%;
+    }
+    .img-drone {
+        top: 30rem;
+        width: 36%;
+    }
+    .img-speed {
+        margin-top: 1rem;
+        width: 19%;
+    }
+    .img-longRange {
+        margin-top: 0rem;
+        width: 19%;
+    }
+    .feature-description {
+        padding: 0 12rem;
+    }
+    .feature-num {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .description {
+        flex-direction: column;
+    }
+    .des-info {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    .description-2 {
+        flex-direction: column-reverse;
+    }
+    .form-input {
+        width: 58%;
+    }
+    .section-map {
+        height: 30vh;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS Code */
+    html{
+        font-size: 7px;
+    }
+    .header-area {
+        height: 80vh;
+    }
+    .heading-primary {
+        font-size: 3.5rem;
+    }
+    .nav-link-circle {
+        display: inline-block;
+        margin-top: 2rem;
+    }
+    .hero-description {
+        padding: 0 3rem;
+    }
+    .scroll-down {
+        text-align: center;
+        margin-top: 18rem;
+    }
+    .fromAir {
+        margin-top: 4rem;
+    }
+    .img-bestDrone {
+        margin-top: 1.5rem;
+        width: 19%;
+    }
+    .img-drone {
+        display: none;
+    }
+    .img-speed {
+        margin-top: 1rem;
+        width: 19%;
+    }
+    .img-longRange {
+        margin-top: 0rem;
+        width: 19%;
+    }
+    .feature-description {
+        padding: 0 12rem;
+    }
+    .feature-num {
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+    .description {
+        flex-direction: column;
+    }
+    .des-info {
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+    }
+    .description-info {
+        width: 90%;
+    }
+    .description-2 {
+        flex-direction: column-reverse;
+    }
+    .section-newsletter {
+        height: 37vh;
+    }
+    .form-input {
+        width: 70%;
+    }
+    .section-map {
+        height: 30vh;
+    }
+
 }
