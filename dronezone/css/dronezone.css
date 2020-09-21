@@ -12,6 +12,7 @@
 
 
     --d-color-grey-1: #f6f6f6;
+    --d-color-grey-2: #a7acbc;
 
     --d-font: 'Lato', sans-serif;
 }
@@ -212,6 +213,7 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
 /*====================================================*/
 .section-drone-specification {
     padding: 10rem 0;
+    position: relative;
 }
 
 .drone-specification-info {
@@ -223,6 +225,44 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
     color: var(--d-color-black);
     font-weight: 300;
 }
+.features{
+    margin-top: 2rem;
+
+}
+.feature-1{
+
+}
+.feature-row{
+    margin-top: 5rem;
+}
+.feature-num{
+    font-size: 1.6rem;
+    width: 5rem;
+    height: 5rem;
+    border: .2rem solid var(--d-color-grey-2);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5rem;
+
+}
+.feature-num-mod{
+
+}
+.feature-des{
+    margin-top: 0rem;
+    font-size: 1.5rem;
+}
+.feature-des-mod{
+    color: var(--d-color-grey-2);
+    padding-left: 2rem;
+    font-weight: 300;
+
+}
+.img-drone{
+    position: absolute;
+    right: 0;
+    top: 5rem;
+}
 
 /*====================================================*/
 /*==========SECTION DRONE SPECIFICATION ENDS HERE*/
@@ -232,6 +272,29 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
 /*=========================================================*/
 /*==========SECTION DRONE DESCRIPTION NATURE STARTS HERE*/
 /*=========================================================*/
+.section-drone-description{
+
+}
+.description{
+    display: flex;
+    align-items: center;
+
+}
+.des-img{
+    flex-basis: 88.5%;
+}
+.img-description{
+
+}
+.des-info{
+    padding-left: 7rem;
+}
+.description-info{
+    width: 54%;
+    font-size: 1.6rem;
+    color: var(--d-color-grey-2);
+    font-weight: 300;
+}
 /*=========================================================*/
 /*==========SECTION DRONE DESCRIPTION NATURE ENDS HERE*/
 /*=========================================================*/
@@ -248,6 +311,47 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
 /*====================================================*/
 /*==========SECTION DRONE NEWSLETTER STARTS HERE*/
 /*====================================================*/
+.section-newsletter{
+    background-image: url("../img/hero-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding: 10rem 0;
+}
+.newsletter{
+    text-align: center;
+}
+.newsletter-header{
+    color: var(--d-color-white) !important;
+}
+.form-area{
+    margin-top: 10rem;
+}
+.form-input{
+    width: 30%;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border: .1rem solid var(--d-color-grey-2);
+    font-size: 1.6rem;
+    border-radius: 4rem;
+}
+.form-input::placeholder{
+    color: var(--d-color-white);
+}
+.form-input:focus{
+    outline: none;
+}
+.btn-submit{
+    background-color: var(--d-color-grey-1);
+    font-size: 1.6rem;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    color: var(--d-primary-1);
+    margin-left: -11rem;
+    margin-top: -.5rem;
+    border: .1rem solid transparent;
+}
 /*====================================================*/
 /*==========SECTION DRONE NEWSLETTER ENDS HERE*/
 /*====================================================*/
@@ -256,6 +360,14 @@ h1, h2, h3, h4, h5, h6, span, a, p, div {
 /*====================================================*/
 /*==========SECTION DRONE MAP STARTS HERE*/
 /*====================================================*/
+.section-map{
+    background-image: url("../img/map.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    padding: 10rem 0;
+}
 /*====================================================*/
 /*==========SECTION DRONE MAP ENDS HERE*/
 /*====================================================*/
