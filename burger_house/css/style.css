@@ -497,14 +497,22 @@ html {
 
 
 /*responsive css code*/
+@media (min-width: 1801px) {
+    /*.copyright {*/
+    /*    margin-top: 10rem;*/
+    /*}*/
+    /*.social {*/
+    /*    margin-top: 9rem;*/
+    /*}*/
+}
 
 
-@media (min-width: 1600px) {
+@media (min-width: 1600px) and (max-width: 1880px) {
     .copyright {
-        margin-top: 12rem;
+        margin-top: 8rem;
     }
     .social {
-        margin-top: 11rem;
+        margin-top: 7rem;
     }
 
 }
@@ -514,7 +522,7 @@ html {
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1281px) and (max-width: 1599px) {
     .about-info {
         font-size: 1.6rem;
         color: var(--color-white-1);
