@@ -228,6 +228,11 @@ html {
     display: inline-block;
     font-size: 1.6rem;
     padding: 1rem 8rem !important;
+    border: .1rem solid var(--fit-color-light-1);
+    border-radius: 3rem;
+    color: var(--fit-color-primary-1) !important;
+    background-color: var(--fit-color-light-1);
+    font-weight: bold;
 }
 .footer-btn:hover{
     color: var(--fit-color-light-1);
@@ -235,3 +240,186 @@ html {
 /*================================================*/
 /*section footer ends here*/
 /*================================================*/
+
+/*
+  ##Device = Desktops
+  ##Screen = 1601px
+*/
+
+@media (min-width: 1601px) {
+
+    /* CSS Code */
+
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to 1600px
+*/
+
+@media (min-width: 1281px) and (max-width: 1880px) {
+
+    /* CSS Code */
+    .app-feature-info {
+        margin-top: 19rem;
+        margin-left: 4rem;
+    }
+    .meal-time {
+        margin-top: 15rem;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS Code */
+    .app-feature-info {
+        margin-top: 13rem;
+    }
+    .meal-time {
+        margin-top: 11rem;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS Code */
+    .nav-link-circle {
+        border: none;
+        padding: 0rem 0rem !important;
+        border-radius: 0rem;
+        margin-top: 0rem;
+        color: var(--fit-color-light-1) !important;
+        background-color: transparent;
+        font-weight: normal;
+        display: inline-block;
+    }
+    .app-feature-info {
+        margin-top: 5rem;
+    }
+    .meal-time {
+        margin-top: 1rem;
+    }
+    .meal-time-des {
+        width: 93%;
+    }
+    .footer{
+        margin-top: -3rem;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS Code */
+    html{
+        font-size: 8px;
+    }
+    .nav-link-circle {
+        border: none;
+        padding: 0rem 0rem !important;
+        border-radius: 0rem;
+        margin-top: 0rem;
+        color: var(--fit-color-light-1) !important;
+        background-color: transparent;
+        font-weight: normal;
+        display: inline-block;
+    }
+    .app-feature-info {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .meal-time {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .meal-time-des {
+        width: 82%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .meal-time-img {
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .footer{
+        margin-top: -3rem;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS Code */
+    html{
+        font-size: 7px;
+    }
+    .header-area {
+        height: 96vh;
+    }
+    .nav-link-circle {
+        border: none;
+        padding: 0rem 0rem !important;
+        border-radius: 0rem;
+        margin-top: 0rem;
+        color: var(--fit-color-light-1) !important;
+        background-color: transparent;
+        font-weight: normal;
+        display: inline-block;
+    }
+    .app-header {
+        font-size: 3.5rem;
+    }
+    .app-feature-info {
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .app-hero-description {
+        width: 85%;
+    }
+    .heading-primary {
+        font-size: 3rem;
+    }
+    .play-store {
+        margin-top: 3rem;
+        width: 50%;
+    }
+    .meal-time {
+        margin-top: 1rem;
+        text-align: center;
+    }
+    .meal-time-des {
+        width: 82%;
+        margin: auto;
+        margin-top: 3rem;
+    }
+    .meal-time-img {
+        text-align: center;
+        margin-left: 0rem;
+    }
+    .footer {
+        margin-top: 2rem;
+    }
+
+}

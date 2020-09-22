@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+    --heyU-font: 'Lato', sans-serif;
+
+
+    --heyU-color-primary-1: #d90647;
+    --heyU-color-primary-2: #eb402c;
+
+    --heyU-color-light-1: #fff;
+    --heyU-color-light-2: #e7e7e7;
+
+    --heyU-color-grey-1: #f8f8f8;
+
+    --heyU-color-dark1: #363636;
+}
+
+html{
+    font-size: 10px;
+}
+h1,h2,h3,h4,h5,h6,p,a,span,div{
+    font-family: var(--heyU-font);
+}

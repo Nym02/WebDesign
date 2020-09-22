@@ -20,6 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aee00044-a738-4562-bebd-57aab53cb186" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/HeyU/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/app-feature.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/app-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/app-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/easy-msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/hero-img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/john-doe-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/john-doe-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/keep-in-touch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/make-free-call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/start-conversation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/take-a-photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/img/video-call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeyU/indext.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FitApp/css/fitapp.css" beforeDir="false" afterPath="$PROJECT_DIR$/FitApp/css/fitapp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FitApp/fitapp.html" beforeDir="false" afterPath="$PROJECT_DIR$/FitApp/fitapp.html" afterDir="false" />
@@ -90,7 +106,8 @@
       <workItem from="1600595385658" duration="5011000" />
       <workItem from="1600614189620" duration="8522000" />
       <workItem from="1600677007696" duration="5365000" />
-      <workItem from="1600698811267" duration="14016000" />
+      <workItem from="1600698811267" duration="14427000" />
+      <workItem from="1600762026053" duration="3441000" />
     </task>
     <servers />
   </component>
