@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
     font-family: var(--heyU-font);
 }
 
+.text-center {
+    text-align: center;
+}
+
 /*================================================*/
 /*header section starts here*/
 /*================================================*/
@@ -83,16 +87,20 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
     font-weight: bold;
 }
 
-.button {
+.button-download {
+    margin-top: 2rem;
 
+    color: var(--heyU-color-primary-1);
+    background-color: var(--heyU-color-light-1);
 }
 
-.button-download {
-
+.button-download:hover {
+    color: var(--heyU-color-primary-1);
 }
 
 .btn-link, .btn-link:link, .btn-link:visited {
     text-decoration: none;
+    display: inline-block;
 }
 
 .hero-img {
@@ -107,63 +115,75 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 /*================================================*/
 /*section easy message starts here*/
 /*================================================*/
-.section-easy-msg{
+.section-easy-msg {
     position: relative;
     padding: 10rem 0;
 }
-.easy-msg-img{
+
+.easy-msg-img {
 
 }
-.img-easy-msg{
+
+.img-easy-msg {
 
 }
-.easy-msg-info{
+
+.easy-msg-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 3rem;
 }
-.heading-primary{
+
+.heading-primary {
     font-size: 7rem;
     font-weight: bold;
 }
-.heading-primary-mod{
+
+.heading-primary-mod {
     color: var(--heyU-color-primary-1);
 }
-.easy-msg-des{
+
+.easy-msg-des {
     font-size: 1.7rem;
     margin-top: 2rem;
     font-weight: 400;
     color: var(--heyU-color-grey-2);
 }
+
 /*================================================*/
 /*section easy message ends here*/
 /*================================================*/
 /*================================================*/
 /*section keep in touch starts here*/
 /*================================================*/
-.section-keepInTouch{
+.section-keepInTouch {
     padding: 10rem 0;
     border-bottom: .1rem solid var(--heyU-color-grey-3);
 
 }
-.keepintouch{
+
+.keepintouch {
     display: flex;
     align-items: center;
 
 
 }
-.kit-info{
+
+.kit-info {
     flex-basis: 50%;
 
 }
-.keepintouch-des{
+
+.keepintouch-des {
     width: 73%;
 }
-.kit-img{
+
+.kit-img {
     margin-left: 7rem;
 }
-.img-kit{
+
+.img-kit {
 
 }
 
@@ -173,37 +193,44 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 /*================================================*/
 /*section what people say starts here*/
 /*================================================*/
-.section-people-say{
-    padding: 15rem 0;
+.section-people-say {
+    padding: 25rem 0;
 }
-.people-say-header{
+
+.people-say-header {
     text-align: center;
     margin-bottom: 10rem;
 }
-.qoute{
+
+.qoute {
 
 }
-.qoute-1{
+
+.qoute-1 {
 
 }
-.qoute-1-wrap{
+
+.qoute-1-wrap {
     transition: all .3s;
 }
-.qoute-1-wrap:hover{
+
+.qoute-1-wrap:hover {
     margin-top: -2rem;
     box-shadow: 0rem 0rem 1rem var(--heyU-color-grey-3);
 
 }
 
 
-.qoute-info{
+.qoute-info {
     border: .1rem solid var(--heyU-color-grey-3);
     padding: 3rem;
 }
-.qoute-1-wrap:hover .qoute-info{
+
+.qoute-1-wrap:hover .qoute-info {
     border: .1rem solid transparent;
 }
-.qoute-info:after{
+
+.qoute-info:after {
     content: '';
     width: 3rem;
     height: 3rem;
@@ -219,59 +246,180 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
     transition: all .3s;
 
 }
-.qoute-info:hover:after{
+
+.qoute-info:hover:after {
     bottom: 9.8rem;
 }
+
 /*.qoute-info:hover{*/
 /*    transform: translateY(-1rem);*/
 /*}*/
 
-.qoute-des{
+.qoute-des {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     color: var(--heyU-color-grey-2);
     text-align: justify;
     font-style: italic;
 }
-.qoute-client-company,.qoute-client-company:link,.qoute-client-company:visited{
+
+.qoute-client-company, .qoute-client-company:link, .qoute-client-company:visited {
     text-decoration: none;
     color: var(--heyU-color-primary-1);
     font-size: 1.8rem;
     font-weight: bold;
 }
-.qoute-angle{
+
+.qoute-angle {
 
 }
-.qoute-person{
+
+.qoute-person {
     display: flex;
     align-items: center;
     margin-top: 2rem;
 }
-.qoute-1-wrap:hover .qoute-person{
+
+.qoute-1-wrap:hover .qoute-person {
     margin-top: 2rem;
 }
-.img-qoute-person{
+
+.img-qoute-person {
 
 }
-.qoute-person-info{
+
+.qoute-person-info {
     margin-left: 2rem;
     margin-top: 1.5rem;
 }
-.qoute-person-name{
+
+.qoute-person-name {
     font-size: 1.7rem;
     color: var(--heyU-color-dark1);
 }
-.qoute-person-designation{
+
+.qoute-person-designation {
     font-size: 1.5rem;
     color: var(--heyU-color-grey-2);
 }
-/*================================================*/
-/*section what people say ends here*/
-/*================================================*/
-/*================================================*/
-/*section what people say starts here*/
-/*================================================*/
 
 /*================================================*/
 /*section what people say ends here*/
+/*================================================*/
+/*================================================*/
+/*section app features starts here*/
+/*================================================*/
+.section-app-feature {
+    background-image: linear-gradient(to bottom, var(--heyU-color-primary-1), var(--heyU-color-primary-2));
+    height: 50vh;
+    padding: 10rem 0;
+}
+
+.feature-img-mod {
+    text-align: right;
+}
+
+.feature-info {
+    text-align: right;
+}
+
+.feature-info-mod {
+    text-align: left;
+}
+
+.feature-header {
+    font-size: 2.3rem;
+    color: var(--heyU-color-light-1);
+    margin-bottom: 1rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.feature-des {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--heyU-color-light-1);
+}
+
+.row-feature {
+    margin-top: 6rem;
+}
+
+.feature-image {
+    position: relative;
+}
+
+.img-feature-image {
+    position: absolute;
+    top: -57rem;
+    left: 75rem;
+}
+
+/*================================================*/
+/*section app features ends here*/
+/*================================================*/
+/*================================================*/
+/*section newsletter starts here*/
+/*================================================*/
+
+.section-newsletter {
+    padding: 20rem 0;
+    border-bottom: .1rem solid var(--heyU-color-grey-2);
+}
+
+.form-area {
+    margin-top: 7rem;
+}
+
+.form {
+
+}
+
+.form-input {
+    width: 35%;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background-color: var(--heyU-color-grey-1);
+    border: .1rem solid var(--heyU-color-grey-1);
+    border-radius: 4rem;
+}
+
+.form-input::placeholder {
+
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 3rem;
+}
+
+.button-submit {
+    background-image: linear-gradient(to bottom, var(--heyU-color-primary-1), var(--heyU-color-primary-2));
+    border: .1rem solid transparent;
+    color: var(--heyU-color-light-1);
+    padding: 1rem 4rem;
+    margin-left: -10rem;
+}
+
+/*================================================*/
+/*section newsletter ends here*/
+/*================================================*/
+/*================================================*/
+/*section footer starts here*/
+/*================================================*/
+.footer-area{
+    padding: 10rem 0;
+}
+.img-app-store{
+    margin-top: 3rem;
+}
+
+/*================================================*/
+/*section footer ends here*/
 /*================================================*/
