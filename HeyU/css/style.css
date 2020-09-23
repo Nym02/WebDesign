@@ -413,13 +413,275 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
 /*================================================*/
 /*section footer starts here*/
 /*================================================*/
-.footer-area{
+.footer-area {
     padding: 10rem 0;
 }
-.img-app-store{
+
+.img-app-store {
     margin-top: 3rem;
 }
 
 /*================================================*/
 /*section footer ends here*/
 /*================================================*/
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1601px
+*/
+
+@media (min-width: 1601px) and (max-width: 1880px) {
+
+    /* CSS Code */
+
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to 1600px
+*/
+
+@media (min-width: 1281px) and (max-width: 1600px) {
+
+    /* CSS Code */
+    .img-feature-image {
+        left: 53rem;
+        /*display: none;*/
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS Code */
+    .hero-header {
+        font-size: 8rem;
+    }
+
+    .hero-des {
+        margin-top: 1.5rem;
+    }
+
+    .hero-img {
+        top: 18rem;
+        right: 6rem;
+        width: 35%;
+    }
+
+    .heading-primary {
+        font-size: 5.5rem;
+    }
+
+    .keepintouch-des {
+        width: 87%;
+    }
+
+    .section-app-feature {
+        padding: 6rem 0;
+    }
+
+    .row-feature {
+        margin-top: 4rem;
+    }
+
+    .feature-header {
+        font-size: 1.8rem;
+    }
+
+    .feature-des {
+        font-size: 1.6rem;
+    }
+
+    .img-feature-image {
+        position: absolute;
+        top: -52rem;
+        left: 36rem;
+        width: 35%;
+        display: none;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS Code */
+    html {
+        font-size: 9px;
+    }
+
+    .hero {
+        position: absolute;
+        top: 20rem;
+    }
+
+    .hero-header {
+        font-size: 7rem;
+    }
+
+    .hero-des {
+        margin-top: 1.5rem;
+    }
+
+    .hero-img {
+        top: 32rem;
+        right: 4rem;
+        width: 37%;
+    }
+
+    .heading-primary {
+        font-size: 5.5rem;
+    }
+
+    .keepintouch-des {
+        width: 100%;
+    }
+
+    .section-app-feature {
+        padding: 6rem 0;
+    }
+
+    .row-feature {
+        margin-top: 4rem;
+    }
+
+    .feature-header {
+        font-size: 1.8rem;
+    }
+
+    .feature-des {
+        font-size: 1.6rem;
+    }
+
+    .img-feature-image {
+        position: absolute;
+        top: -52rem;
+        left: 36rem;
+        width: 35%;
+        display: none;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS Code */
+    html {
+        font-size: 8px;
+    }
+
+    .header-area {
+        background-image: linear-gradient(to bottom, var(--heyU-color-primary-1), var(--heyU-color-primary-2));
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 99%);
+
+    }
+
+    .hero {
+        position: absolute;
+        top: 20rem;
+    }
+
+    .hero-header {
+        font-size: 7rem;
+    }
+
+    .hero-des {
+        margin-top: 1.5rem;
+    }
+
+    .hero-img {
+        top: 32rem;
+        right: 4rem;
+        width: 37%;
+        display: none;
+    }
+
+    .heading-primary {
+        font-size: 5.5rem;
+    }
+    .easy-msg-info {
+        margin-top: 6rem;
+    }
+    .easy-msg-img {
+        width: 75%;
+        margin-left: 8rem;
+    }
+    .keepintouch {
+        flex-direction: column-reverse;
+    }
+    .keepintouch-des {
+        width: 100%;
+    }
+    .kit-info {
+        margin-left: 4rem;
+    }
+    .kit-img {
+        margin-left: 0rem;
+        width: 75%;
+    }
+    .qoute-person {
+        margin-bottom: 6rem;
+    }
+    .qoute-info:after {
+        bottom: 14.3rem;
+    }
+
+    .section-app-feature {
+        padding: 6rem 0;
+    }
+
+    .row-feature {
+        margin-top: 4rem;
+    }
+
+    .feature-header {
+        font-size: 1.8rem;
+    }
+
+    .feature-des {
+        font-size: 1.6rem;
+    }
+
+    .img-feature-image {
+        position: absolute;
+        top: -52rem;
+        left: 36rem;
+        width: 35%;
+        display: none;
+    }
+
+    .form-input {
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS Code */
+
+}
