@@ -322,7 +322,21 @@ div {
   padding: 10rem 0;
   height: 50rem;
 }
+.section-app-feature-2 {
+  background-image: linear-gradient(
+    to bottom,
+    var(--heyU-color-primary-1),
+    var(--heyU-color-primary-2)
+  );
+  padding: 8rem 0;
+}
+.app-feature-2 {
+  margin-top: 15rem;
+}
 .feature-1 {
+  display: flex;
+}
+.feature-4 {
   display: flex;
 }
 .feature-1-desc {
@@ -345,6 +359,10 @@ div {
 .feature-img {
   margin-left: -2.5rem;
   margin-top: -20rem;
+}
+.feature-img-1 {
+  /* margin-left: -2.5rem;
+  margin-top: -20rem; */
 }
 .feature-2 {
   margin-top: 4rem;
@@ -469,9 +487,17 @@ div {
   ##Device = Desktops
   ##Screen = 1601px
 */
+@media (min-width: 1881px) {
+  .section-app-feature-2 {
+    display: none;
+  }
+}
 
 @media (min-width: 1601px) and (max-width: 1880px) {
   /* CSS Code */
+  .section-app-feature-2 {
+    display: none;
+  }
 }
 
 /*
@@ -485,6 +511,9 @@ div {
     left: 53rem;
     /*display: none;*/
   }
+  .section-app-feature-2 {
+    display: none;
+  }
 }
 
 /*
@@ -492,7 +521,7 @@ div {
   ##Screen = 1025px to 1280px
 */
 
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
   /* CSS Code */
   .hero-header {
     font-size: 8rem;
@@ -518,6 +547,9 @@ div {
 
   .section-app-feature {
     padding: 6rem 0;
+  }
+  .section-app-feature-2 {
+    display: none;
   }
 
   .feature-img {
@@ -565,9 +597,17 @@ div {
   }
 
   .section-app-feature {
-    padding: 6rem 0;
+    display: none;
   }
-
+  .section-app-feature-2 {
+    display: block;
+  }
+  .app-feature-2 {
+    margin-top: 2rem;
+  }
+  .feature-1 {
+    display: flex;
+  }
   .row-feature {
     margin-top: 4rem;
   }
@@ -659,32 +699,48 @@ div {
   .qoute-person {
     margin-bottom: 6rem;
   }
+
+  .qoute-1-wrap:hover {
+    margin-top: 0rem;
+    box-shadow: 0rem 0rem 1rem var(--heyU-color-grey-3);
+  }
   .qoute-info:after {
-    bottom: 14.3rem;
+    bottom: 14.2rem;
   }
-
+  .qoute-info:hover:after {
+    bottom: 14.2rem;
+  }
   .section-app-feature {
-    padding: 6rem 0;
+    display: none;
+  }
+  .section-app-feature-2 {
+    display: block;
   }
 
-  .row-feature {
+  .feature-1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .feature-1-desc {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .feature-1-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .feature-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-feature-2 {
     margin-top: 4rem;
   }
 
-  .feature-header {
-    font-size: 1.8rem;
-  }
-
-  .feature-des {
-    font-size: 1.6rem;
-  }
-
-  .img-feature-image {
-    position: absolute;
-    top: -52rem;
-    left: 36rem;
-    width: 35%;
-    display: none;
+  .feature-img-1 {
+    text-align: center;
   }
 
   .form-input {
@@ -697,6 +753,88 @@ div {
   ##Screen = 320px to 479px
 */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 220px) and (max-width: 480px) {
   /* CSS Code */
+  .header-area {
+    height: 74vh;
+  }
+  .img-hero {
+    display: none;
+  }
+  .hero-header {
+    font-size: 5rem;
+  }
+  .img-easy-msg {
+    margin-bottom: 15rem;
+  }
+  .easy-msg-info {
+    margin-left: 1rem;
+  }
+  .keepintouch {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .heading-primary {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .kit-img {
+    margin-left: 0rem;
+  }
+  .keepintouch-des {
+    width: 100%;
+  }
+  .kit-info {
+    margin-left: 2rem;
+  }
+  .section-people-say {
+    padding: 4rem 0;
+  }
+  .qoute-1 {
+    margin-bottom: 5rem;
+  }
+  .qoute-1-wrap:hover {
+    margin-top: 0rem;
+    box-shadow: 0rem 0rem 1rem var(--heyU-color-grey-3);
+  }
+  .qoute-info:after {
+    bottom: 12.8rem;
+  }
+  .qoute-info:hover:after {
+    bottom: 12.8rem;
+  }
+  .section-app-feature {
+    display: none;
+  }
+  .feature-1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .feature-1-desc {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  .feature-1-img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .feature-4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .app-feature-2 {
+    margin-top: 4rem;
+  }
+  .section-newsletter {
+    padding: 8rem 0;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .button-submit {
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
 }
