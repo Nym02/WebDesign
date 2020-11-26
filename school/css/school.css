@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --color-primary-dark: #01b6fe;
+  --color-primary-light: #34c4fe;
+  --color-bg-primary-dark-1: rgba(1, 182, 254, 0.658);
+  --color-bg-primary-light-1: rgba(52, 197, 254, 0.678);
+
+  --color-secondary: #ff9f41;
+  --color-secondary-dark: #ff8000;
+  --color-secondary-light: #ffcb99;
+
+  --color-dark-1: #0c0b0b;
+
+  --color-white: #fff;
+
+  --font-primary: "Rubik", sans-serif;
+  --font-logo: "Aladin", cursive;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: var(--font-primary);
+}
+
+/* <!-- ====================================
+  Header part starts here 
+  ==================================== --> */
+
+.header-area {
+  background-image: linear-gradient(
+      to right,
+      var(--color-bg-primary-dark-1),
+      var(--color-bg-primary-light-1)
+    ),
+    url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+/* navigation starts here  */
+.navbar-brand {
+  font-family: var(--font-logo) !important;
+}
+/* navigation ends here  */
+/* <!-- ====================================
+  Header part ends here 
+  ==================================== --> */
