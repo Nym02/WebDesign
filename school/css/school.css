@@ -1,12 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Aladin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --color-primary-dark: #01b6fe;
   --color-primary-light: #34c4fe;
-  --color-bg-primary-dark-1: rgba(1, 182, 254, 0.658);
-  --color-bg-primary-light-1: rgba(52, 197, 254, 0.678);
+
+  --color-bg-primary-dark-1: rgba(18, 18, 19, 0.658);
+  --color-bg-primary-light-1: rgba(19, 21, 22, 0.678);
 
   --color-secondary: #ff9f41;
   --color-secondary-dark: #ff8000;
@@ -16,8 +19,11 @@
 
   --color-white: #fff;
 
+  --color-grey-1: #c7c3c3;
+
   --font-primary: "Rubik", sans-serif;
-  --font-logo: "Aladin", cursive;
+  --font-logo: "Pacifico", cursive;
+  --font-heading: "Exo 2", sans-serif;
 }
 
 *,
@@ -54,7 +60,74 @@ body {
 .navbar-brand {
   font-family: var(--font-logo) !important;
 }
+.nav-modifier {
+  background-color: var(--color-white);
+}
+.navbar-logo {
+  color: var(--color-secondary);
+  font-size: 3rem !important;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+.navbar-logo:hover {
+  color: var(--color-secondary);
+  padding-left: 1rem;
+}
+.nav-link {
+  font-size: 1.6rem !important;
+  color: var(--color-dark-1);
+  text-decoration: none;
+  font-family: var(--font-primary);
+  transition: all 0.4s;
+  font-weight: 500;
+}
+.nav-item:not(:last-child) {
+  margin-right: 1.6rem !important;
+}
+.nav-link:hover {
+  color: var(--color-secondary-dark);
+}
+.nav-bordered {
+  border-right: 0.4rem solid var(--color-secondary-light);
+  padding-right: 1rem;
+}
+.nav-login {
+  background-color: var(--color-secondary-dark);
+  padding: 0rem 1.4rem;
+  border-radius: 3rem;
+  transition: all 0.4s;
+}
+.nav-login-link {
+  color: var(--color-white);
+}
+.nav-login:hover {
+  background-color: var(--color-dark-1);
+}
 /* navigation ends here  */
-/* <!-- ====================================
+/* header contents start here  */
+.header-description {
+  margin-top: 25rem;
+  text-align: center;
+}
+.heading {
+}
+.heading-hero {
+  font-size: 7rem;
+  color: var(--color-white);
+  font-family: var(--font-heading);
+  font-weight: 800;
+}
+.heading-hero-mod {
+  color: var(--color-secondary-dark);
+}
+.hero-text {
+  padding: 0 22rem;
+  font-size: 1.6rem;
+  margin-top: 2rem;
+  color: var(--color-grey-1);
+}
+/* header contents end here  */
+
+/* <!-- =========================================
   Header part ends here 
-  ==================================== --> */
+  =============================================== --> */
