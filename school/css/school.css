@@ -20,6 +20,7 @@
   --color-white: #fff;
 
   --color-grey-1: #c7c3c3;
+  --color-grey-2: #f1eeee;
 
   --font-primary: "Rubik", sans-serif;
   --font-logo: "Pacifico", cursive;
@@ -158,4 +159,91 @@ body {
 
 /* <!-- =========================================
   Header part ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Feature part starts here 
+  =============================================== --> */
+.section-feature {
+  padding: 10rem 0;
+  background-color: var(--color-grey-2);
+}
+.school-feature {
+}
+.feature-box {
+  padding: 2rem;
+  background-color: var(--color-white);
+  position: relative;
+  border-left: 0.3rem solid var(--color-primary-dark);
+  transition: all 0.3s;
+  border-radius: 1rem;
+}
+.feature-box::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0.3rem;
+  background-color: var(--color-secondary-dark);
+  bottom: 0;
+  left: -0.1rem;
+  transition: all 0.3s;
+}
+.feature-box:hover {
+  border-left: 0.3rem solid transparent;
+  box-shadow: 2px 2px 25px -1px var(--color-dark-1);
+  transform: translateY(-2rem);
+}
+.feature-box:hover:after {
+  width: 100%;
+}
+.feature-icon {
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--color-grey-2);
+  text-align: center;
+  line-height: 8rem;
+  border-radius: 50%;
+  position: absolute;
+  right: 1rem;
+  top: -4rem;
+}
+.feature-icon-photo {
+  width: 50%;
+}
+.feature-header {
+}
+.feature-header-info {
+  font-size: 2.3rem;
+  margin-top: 4rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+.feature-header-info-mod {
+  color: var(--color-primary-dark);
+  transition: all.3s;
+}
+.feature-box:hover .feature-header-info-mod {
+  color: var(--color-secondary-dark);
+}
+.feature-divider {
+  width: 5rem;
+  height: 0.2rem;
+  background-color: var(--color-primary-dark);
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  transition: all 0.3s;
+}
+
+.feature-box:hover .feature-divider {
+  width: 6rem;
+  background-color: var(--color-secondary-dark);
+}
+.feature-description {
+}
+.feature-description-text {
+  font-size: 1.5rem;
+  color: var(--color-bg-primary-dark-1);
+  text-align: justify;
+}
+/* <!-- =========================================
+  Section Feature part ends here 
   =============================================== --> */
