@@ -164,7 +164,7 @@ body {
   Section Feature part starts here 
   =============================================== --> */
 .section-feature {
-  padding: 10rem 0;
+  padding: 20rem 0;
   background-color: var(--color-grey-2);
 }
 .school-feature {
@@ -173,7 +173,7 @@ body {
   padding: 2rem;
   background-color: var(--color-white);
   position: relative;
-  border-left: 0.3rem solid var(--color-primary-dark);
+  border-left: 0.3rem solid var(--color-secondary-dark);
   transition: all 0.3s;
   border-radius: 1rem;
 }
@@ -184,7 +184,7 @@ body {
   height: 0.3rem;
   background-color: var(--color-secondary-dark);
   bottom: 0;
-  left: -0.1rem;
+  left: -0.2rem;
   transition: all 0.3s;
 }
 .feature-box:hover {
@@ -195,6 +195,7 @@ body {
 .feature-box:hover:after {
   width: 100%;
 }
+
 .feature-icon {
   width: 8rem;
   height: 8rem;
@@ -227,7 +228,7 @@ body {
 .feature-divider {
   width: 5rem;
   height: 0.2rem;
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-secondary-dark);
   margin-bottom: 2rem;
   margin-top: 1rem;
   transition: all 0.3s;
@@ -246,4 +247,25 @@ body {
 }
 /* <!-- =========================================
   Section Feature part ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Popular Course part starts here 
+  =============================================== --> */
+.section-popular-courses {
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      var(--color-bg-primary-dark-1),
+      var(--color-bg-primary-light-1)
+    ),
+    url("../img/class-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  height: 100vh;
+}
+
+/* <!-- =========================================
+  Section Popular Course part ends here 
   =============================================== --> */
