@@ -15,12 +15,14 @@
   --color-secondary-dark: #ff8000;
   --color-secondary-light: #ffcb99;
 
-  --color-dark-1: #0c0b0b;
+  --color-dark-1: #141313;
 
   --color-white: #fff;
 
   --color-grey-1: #c7c3c3;
   --color-grey-2: #f1eeee;
+
+  --color-red-1: #c21a5b;
 
   --font-primary: "Rubik", sans-serif;
   --font-logo: "Pacifico", cursive;
@@ -40,7 +42,13 @@ html {
 body {
   font-family: var(--font-primary);
 }
-
+/* utility class  */
+.marginTop2x {
+  margin-top: 2rem;
+}
+.marginBottom2x {
+  margin-bottom: 2rem;
+}
 /* <!-- ====================================
   Header part starts here 
   ==================================== --> */
@@ -181,7 +189,7 @@ body {
   position: absolute;
   width: 0%;
   height: 0.3rem;
-  background-color: var(--color-dark-1);
+  background-color: var(--color-primary-dark);
   bottom: 0;
   left: -0.2rem;
   transition: all 0.3s;
@@ -235,7 +243,7 @@ body {
 
 .feature-box:hover .feature-divider {
   width: 6rem;
-  background-color: var(--color-secondary-dark);
+  background-color: var(--color-primary-dark);
 }
 .feature-description {
 }
@@ -261,8 +269,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-
-  height: 100vh;
 }
 
 /* course content starts here  */
@@ -293,11 +299,24 @@ body {
 }
 .course-img-photo {
 }
+.course-students {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  background-color: var(--color-secondary-dark);
+}
+.course-student-number {
+  margin-bottom: 0;
+  color: var(--color-white);
+  font-family: var(--font-heading);
+}
+.course-fee {
+}
 .course-timing {
-  position: absolute;
-  right: 10rem;
-  top: 0rem;
-  /* opacity: 0; */
+  margin-top: 1rem;
 }
 .course-time {
   font-size: 1.4rem;
@@ -337,8 +356,114 @@ body {
   text-align: justify;
   color: var(--color-bg-primary-dark-1);
 }
+.course-btn {
+}
+.btnCourse {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--color-white);
+  background-color: var(--color-secondary-dark);
+  border: 0.1rem solid transparent;
+  padding: 1rem 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 12rem;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.btn-seemore {
+}
+.btn-icon-course {
+  padding-left: 1rem;
+}
+.btnCourse:hover {
+  text-decoration: none;
+  border: 0.1rem solid var(--color-secondary-dark);
+  background-color: var(--color-dark-1);
+  color: var(--color-white);
+}
+.course:hover .btnCourse {
+  top: 10rem;
+  opacity: 1;
+}
 /* course content ends here  */
 
 /* <!-- =========================================
   Section Popular Course part ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section class routine Course part starts here 
+  =============================================== --> */
+.section-class-routine {
+  padding: 10rem 0;
+}
+.section-header-classRoutine {
+  color: var(--color-primary-dark) !important;
+}
+/* tab button parts starts here  */
+.classCol {
+}
+.class-day {
+  border-bottom: 0.1rem solid var(--color-secondary-dark);
+}
+.class-day-1 {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  padding: 1rem 4.8335rem;
+}
+.class-day-1:active {
+  outline: none;
+}
+.class-day-active {
+  background-color: var(--color-secondary-dark);
+  color: var(--color-white);
+}
+.class-routine-time {
+  display: none;
+}
+
+#sat-class {
+  display: block;
+}
+
+/* tab button parts ends here  */
+/* tab content parts starts here  */
+.saturday__class {
+  margin-top: 10rem;
+}
+.saturday__classTime {
+}
+.classTime__title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  border-bottom: 0.1rem solid var(--color-secondary-dark);
+}
+.classTime__header {
+  font-size: 4rem;
+  font-family: var(--font-heading);
+}
+.classTime__break {
+}
+.classTime__notice {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-top: 10rem;
+  color: var(--color-red-1);
+}
+.classTime__img {
+}
+.classTime__img-picture {
+}
+
+/* tab content parts ends here  */
+
+/* <!-- =========================================
+  Section class routine Course part ends here 
   =============================================== --> */
