@@ -15,6 +15,8 @@
   --color-secondary-dark: #ff8000;
   --color-secondary-light: #ffcb99;
 
+  --color-secondary-bg-dark: rgba(255, 128, 0, 0.774);
+  --color-secondary-bg-light: rgba(255, 202, 153, 0.747);
   --color-dark-1: #141313;
 
   --color-white: #fff;
@@ -48,6 +50,9 @@ body {
 }
 .marginBottom2x {
   margin-bottom: 2rem;
+}
+.colorBg-1 {
+  background-color: var(--color-primary-dark) !important;
 }
 /* <!-- ====================================
   Header part starts here 
@@ -466,4 +471,44 @@ body {
 
 /* <!-- =========================================
   Section class routine Course part ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Enroll Child starts here 
+  =============================================== --> */
+.section-enroll-child {
+  padding: 10rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      var(--color-secondary-bg-dark),
+      var(--color-secondary-bg-light)
+    ),
+    url("../img/enroll-bg.jpg");
+}
+
+.enroll-child {
+}
+.enroll {
+  color: var(--color-white);
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: var(--color-bg-primary-dark-1);
+  padding: 3rem 17rem;
+  border-radius: 1rem;
+}
+
+.enroll-description {
+}
+.enroll-contact {
+  font-size: 4rem;
+  font-family: var(--font-heading);
+  color: var(--color-primary-dark);
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+.enroll-contact-icon {
+}
+.enroll-contact-icon .fas {
+}
+/* <!-- =========================================
+  Section Enroll Child ends here 
   =============================================== --> */
