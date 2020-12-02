@@ -11,6 +11,9 @@
   --color-bg-primary-dark-1: rgba(18, 18, 19, 0.658);
   --color-bg-primary-light-1: rgba(19, 21, 22, 0.678);
 
+  --color-primary-bg-dark: rgba(1, 182, 254, 0.699);
+  --color-primary-bg-light: rgba(52, 197, 254, 0.699);
+
   --color-secondary: #ff9f41;
   --color-secondary-dark: #ff8000;
   --color-secondary-light: #ffcb99;
@@ -18,6 +21,7 @@
   --color-secondary-bg-dark: rgba(255, 128, 0, 0.774);
   --color-secondary-bg-light: rgba(255, 202, 153, 0.747);
   --color-dark-1: #141313;
+  --color-dark-2: #221d1d;
 
   --color-white: #fff;
 
@@ -68,6 +72,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
+  background-attachment: fixed;
   height: 100vh;
 }
 /* navigation starts here  */
@@ -274,6 +280,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+
+  background-attachment: fixed;
 }
 
 /* course content starts here  */
@@ -479,10 +487,11 @@ body {
   padding: 10rem 0;
   background-image: linear-gradient(
       to right bottom,
-      var(--color-secondary-bg-dark),
-      var(--color-secondary-bg-light)
+      var(--color-primary-bg-dark),
+      var(--color-primary-bg-light)
     ),
     url("../img/enroll-bg.jpg");
+  background-attachment: fixed;
 }
 
 .enroll-child {
@@ -501,14 +510,41 @@ body {
 .enroll-contact {
   font-size: 4rem;
   font-family: var(--font-heading);
-  color: var(--color-primary-dark);
+  color: var(--color-secondary-dark);
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
 .enroll-contact-icon {
 }
-.enroll-contact-icon .fas {
+.enroll-contact-icon .fa-phone-alt {
+  font-size: 3rem;
 }
 /* <!-- =========================================
   Section Enroll Child ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Campus Tour ends here 
+  =============================================== --> */
+.section-campus-tour {
+  padding: 10rem 0;
+  background-color: var(--color-dark-2);
+}
+.campus-tour-header {
+  color: var(--color-secondary-dark);
+}
+.campus-divider {
+  background-color: var(--color-white);
+}
+.campus-tour-img {
+  margin-bottom: 2rem;
+}
+.campus-tour-img-pic {
+  width: 26rem;
+  cursor: pointer;
+}
+.campus-tour-btn {
+  text-align: center;
+}
+/* <!-- =========================================
+  Section Campus Tour ends here 
   =============================================== --> */
