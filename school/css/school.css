@@ -30,6 +30,11 @@
 
   --color-red-1: #c21a5b;
 
+  --color-social-1: #1298f6;
+  --color-social-2: #1da1f2;
+  --color-social-3: #c33999;
+  --color-social-4: #0a66c2;
+
   --font-primary: "Rubik", sans-serif;
   --font-logo: "Pacifico", cursive;
   --font-heading: "Exo 2", sans-serif;
@@ -57,6 +62,12 @@ body {
 }
 .colorBg-1 {
   background-color: var(--color-primary-dark) !important;
+}
+.colorText-1 {
+  color: var(--color-secondary-dark) !important;
+}
+.colorText-2 {
+  color: var(--color-primary-dark) !important;
 }
 /* <!-- ====================================
   Header part starts here 
@@ -539,7 +550,7 @@ body {
   margin-bottom: 2rem;
 }
 .campus-tour-img-pic {
-  width: 26rem;
+  width: 100%;
   cursor: pointer;
 }
 .campus-tour-btn {
@@ -547,4 +558,99 @@ body {
 }
 /* <!-- =========================================
   Section Campus Tour ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Teacher starts here 
+  =============================================== --> */
+.section-our-teachers {
+  padding: 10rem 0;
+}
+.our-teachers {
+}
+.teacher {
+}
+.teacher-img {
+  position: relative;
+}
+.teacher-img-mod {
+}
+.teacher-contact {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  height: 52.5rem;
+  opacity: 0;
+  transition: all 0.6s;
+}
+.teacher-contact-info {
+  text-align: center;
+  line-height: 52.5rem;
+  font-size: 4.6rem;
+}
+.teacher-i {
+  color: var(--color-white);
+}
+.teacher-i a,
+.teacher-i a:link,
+.teacher-i a:visited {
+  text-decoration: none;
+  color: var(--color-white);
+}
+.teacher-fb a i {
+}
+.teacher-fb a i:hover {
+  color: var(--color-social-1);
+}
+.teacher-twitter a i {
+}
+.teacher-twitter a i:hover {
+  color: var(--color-social-2);
+}
+.teacher-insta a i {
+}
+.teacher-insta a i:hover {
+  color: var(--color-social-3);
+}
+.teacher-linkedin a i {
+}
+.teacher-linkedin a i:hover {
+  color: var(--color-social-4);
+}
+.teacher-img:hover .teacher-contact {
+  opacity: 1;
+}
+.teacher-info {
+  text-align: center;
+  padding: 2rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--color-red-1),
+    var(--color-secondary-dark)
+  );
+}
+.teacher-name {
+  font-size: 3rem;
+  font-family: var(--font-heading);
+  color: var(--color-white);
+  position: relative;
+}
+.teacher-name:after {
+  /* content: "";
+  width: 4rem;
+  height: 0.3rem;
+  background-color: var(--color-dark-1);
+  position: absolute;
+  top: 4.6rem;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+.teacher-subject {
+  font-size: 1.6rem;
+  color: var(--color-white);
+  /* margin-top: 2rem; */
+}
+
+/* <!-- =========================================
+  Section Teacher ends here 
   =============================================== --> */
