@@ -8,6 +8,7 @@ function showSun(index){
         node.classList.remove('class-day-active');
     })
     btn[index].classList.add('class-day-active');
+    btn[index].style.outline = 'none';
 
     content.forEach((node)=>{
         node.style.display='none';

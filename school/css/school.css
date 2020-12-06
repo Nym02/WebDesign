@@ -63,6 +63,9 @@ body {
 .colorBg-1 {
   background-color: var(--color-primary-dark) !important;
 }
+.colorBg-2 {
+  background-color: var(--color-white) !important;
+}
 .colorText-1 {
   color: var(--color-secondary-dark) !important;
 }
@@ -653,4 +656,108 @@ body {
 
 /* <!-- =========================================
   Section Teacher ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Our Blog starts here 
+  =============================================== --> */
+.section-our-blog {
+  padding: 10rem 0;
+  background-color: var(--color-secondary);
+}
+.blog-1 {
+}
+.blog-thumbnail {
+}
+.blog-img {
+}
+.blog-description {
+  background-color: var(--color-white);
+  padding: 2rem;
+}
+.blog-author {
+  background-color: var(--color-red-1);
+  padding: 1rem 2rem;
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-author-name {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+.blog-author-name-mod {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.blog-author-class {
+  margin-bottom: 0rem;
+  font-size: 1.3rem;
+}
+.blog-title {
+}
+.blog-title-link,
+.blog-title-link:link,
+.blog-title-link:visited {
+  text-decoration: none;
+  color: var(--color-primary-dark);
+}
+.blog-title-name {
+  margin-bottom: 1rem;
+}
+
+.blog-info {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: var(--color-bg-primary-light-1);
+}
+/* <!-- =========================================
+  Section Our Blog ends here 
+  =============================================== --> */
+/* <!-- =========================================
+  Section Newsletter starts here 
+  =============================================== --> */
+.section-newsletter {
+  padding: 8rem 0;
+  background-color: var(--color-red-1);
+}
+.newsletter-header {
+}
+.newsletter-heading {
+  font-size: 3.5rem;
+  font-family: var(--font-heading);
+  font-weight: 400;
+  color: var(--color-white);
+}
+.newsletter-form {
+}
+.newsletter-form .form {
+}
+.newsletter-input {
+  display: inline-block;
+  background-color: var(--color-white);
+  padding: 1rem 1.2rem;
+  font-size: 1.5rem;
+}
+
+.newsletter-input i {
+  font-size: 1.6rem;
+  color: var(--color-bg-primary-dark-1);
+}
+.newsletter-input-control {
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+  padding-right: 10rem;
+}
+.newsletter-submit-btn {
+  border: none;
+  padding: 1rem 1.2rem;
+  font-size: 1.55rem;
+  font-family: var(--font-heading);
+  background-color: var(--color-dark-1);
+  color: var(--color-white);
+}
+/* <!-- =========================================
+  Section Newsletter ends here 
   =============================================== --> */
