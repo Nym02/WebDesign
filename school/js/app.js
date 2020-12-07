@@ -19,7 +19,7 @@ function showSun(index){
 }
 
 
-
+showSun(0);
 
 // Class Routine Tabs Ends
 

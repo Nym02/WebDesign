@@ -11,16 +11,29 @@
   --color-bg-primary-dark-1: rgba(18, 18, 19, 0.658);
   --color-bg-primary-light-1: rgba(19, 21, 22, 0.678);
 
+  --color-primary-bg-dark: rgba(1, 182, 254, 0.699);
+  --color-primary-bg-light: rgba(52, 197, 254, 0.699);
+
   --color-secondary: #ff9f41;
   --color-secondary-dark: #ff8000;
   --color-secondary-light: #ffcb99;
 
-  --color-dark-1: #0c0b0b;
+  --color-secondary-bg-dark: rgba(255, 128, 0, 0.774);
+  --color-secondary-bg-light: rgba(255, 202, 153, 0.747);
+  --color-dark-1: #141313;
+  --color-dark-2: #221d1d;
 
   --color-white: #fff;
 
   --color-grey-1: #c7c3c3;
   --color-grey-2: #f1eeee;
+
+  --color-red-1: #c21a5b;
+
+  --color-social-1: #1298f6;
+  --color-social-2: #1da1f2;
+  --color-social-3: #c33999;
+  --color-social-4: #0a66c2;
 
   --font-primary: "Rubik", sans-serif;
   --font-logo: "Pacifico", cursive;
@@ -89,6 +102,29 @@ body {
   /* =============================
           Header area ends here 
           ============================= */
+
+  /* =============================
+      Feature Section starts here 
+      ============================= */
+
+  .feature-box {
+    margin-bottom: 6rem;
+  }
+
+  /* =============================
+      Feature Section ends here 
+      ============================= */
+  /* =============================
+      Section popular course starts here 
+      ============================= */
+
+  .course:hover .btnCourse {
+    top: 22%;
+    opacity: 1;
+  }
+  /* =============================
+      Section popular course ends here 
+      ============================= */
 }
 
 /* 
@@ -122,6 +158,55 @@ body {
   /* =============================
           Header area ends here 
           ============================= */
+
+  /* =============================
+      Feature Section starts here 
+      ============================= */
+  .feature-box {
+    margin-bottom: 6rem;
+  }
+
+  /* =============================
+      Feature Section ends here 
+      ============================= */
+  /* =============================
+      Section popular course starts here 
+      ============================= */
+  .course {
+    margin-bottom: 4rem;
+  }
+  .course:hover .btnCourse {
+    top: 22%;
+    opacity: 1;
+  }
+  /* =============================
+      Section popular course ends here 
+      ============================= */
+  /* =============================
+      Section Child Enroll starts here 
+      ============================= */
+  .enroll {
+    padding: 3rem 8rem;
+  }
+  /* =============================
+      Section Child Enroll ends here 
+      ============================= */
+  /* =============================
+      Section Newsletter starts here 
+      ============================= */
+  .newsletter-heading {
+    font-size: 2.7rem;
+  }
+
+  .newsletter-input-control {
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    padding-right: 1rem;
+  }
+  /* =============================
+      Section Newsletter ends here 
+      ============================= */
 }
 
 /* 
@@ -155,6 +240,77 @@ body {
   /* =============================
           Header area ends here 
           ============================= */
+
+  /* =============================
+      Feature Section starts here 
+      ============================= */
+  .feature-box {
+    margin-bottom: 6rem;
+  }
+
+  /* =============================
+      Feature Section ends here 
+      ============================= */
+  /* =============================
+      Section popular course starts here 
+      ============================= */
+  .course {
+    margin-bottom: 4rem;
+  }
+  /* =============================
+      Section popular course ends here 
+      ============================= */
+  /* =============================
+      Section Child Enroll starts here 
+      ============================= */
+  .enroll {
+    padding: 3rem 2rem;
+  }
+  /* =============================
+      Section Child Enroll ends here 
+      ============================= */
+  /* =============================
+      Section Our Blog starts here 
+      ============================= */
+  .blog-1 {
+    margin-bottom: 4rem;
+  }
+  /* =============================
+      Section Our Blog ends here 
+      ============================= */
+  /* =============================
+      Section Newsletter starts here 
+      ============================= */
+  .newsletter-heading {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .newsletter-form {
+    text-align: center;
+  }
+  .newsletter-input-control {
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    padding-right: 4rem;
+  }
+  /* =============================
+      Section Newsletter ends here 
+      ============================= */
+  /* =============================
+      Footer Section starts here 
+      ============================= */
+  .school-open-header {
+    margin-top: 6rem;
+    color: var(--color-secondary-dark);
+  }
+  .footer-logo {
+    margin-top: 6.5rem;
+  }
+  /* =============================
+      Footer Section ends here 
+      ============================= */
 }
 
 /* 
@@ -170,9 +326,6 @@ body {
       Header area starts here 
       ============================= */
   /* Navbar contents starts here  */
-  .navbar-toggler-icon {
-    background-image: url("https://i.imgur.com/dKkEzki.png") !important;
-  }
   .nav-bordered {
     border: none;
   }
@@ -197,5 +350,73 @@ body {
 
   /* =============================
       Header area ends here 
+      ============================= */
+
+  /* =============================
+      Feature Section starts here 
+      ============================= */
+  .feature-box {
+    margin-bottom: 6rem;
+  }
+
+  /* =============================
+      Feature Section ends here 
+      ============================= */
+  /* =============================
+      Section popular course starts here 
+      ============================= */
+  .course {
+    margin-bottom: 4rem;
+  }
+  /* =============================
+      Section popular course ends here 
+      ============================= */
+  /* =============================
+      Section Child Enroll starts here 
+      ============================= */
+  .enroll {
+    padding: 3rem 2rem;
+  }
+  /* =============================
+      Section Child Enroll ends here 
+      ============================= */
+  /* =============================
+      Section Our Blog starts here 
+      ============================= */
+  .blog-1 {
+    margin-bottom: 4rem;
+  }
+  /* =============================
+      Section Our Blog ends here 
+      ============================= */
+  /* =============================
+      Section Newsletter starts here 
+      ============================= */
+  .newsletter-heading {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .newsletter-form {
+    text-align: center;
+  }
+  .newsletter-input-control {
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    padding-right: 4rem;
+  }
+  /* =============================
+      Section Newsletter ends here 
+      ============================= */
+  /* =============================
+      Footer Section starts here 
+      ============================= */
+  .school-open-header {
+    margin-top: 6rem;
+    color: var(--color-secondary-dark);
+  }
+  /* =============================
+      Footer Section ends here 
       ============================= */
 }
